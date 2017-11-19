@@ -173,15 +173,15 @@ body {
 }
 .bus .lights::before {
   left: 16px;
-  box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #E5989B;
-  -webkit-animation: lighting 6s 2s linear infinite;
-          animation: lighting 6s 2s linear infinite;
+  /*box-shadow: -16px 0 0 2px rgba(255, 255, 255, 0.5), 14px 0 0 #E5989B;*/
+  -webkit-animation: lighting 3s 1s linear infinite;
+          animation: lighting 3s 1s linear infinite;
 }
 .bus .lights::after {
   right: 16px;
-  box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #E5989B;
-  -webkit-animation: lighting2 6s 2s linear infinite;
-          animation: lighting2 6s 2s linear infinite;
+  /*box-shadow: 16px 0 0 2px rgba(255, 255, 255, 0.5), -14px 0 0 #E5989B;*/
+  -webkit-animation: lighting2 3s 1s linear infinite;
+          animation: lighting2 3s 1s linear infinite;
 }
 .bus .street {
   position: absolute;
@@ -340,6 +340,12 @@ body {
   .countdown {
     width: 100%;
     max-width: 25rem;
+  }
+  .timer .box .value{
+    padding: 0;
+  }
+  .timer .box{
+    width: 17rem;
   }
 }
 @media screen and (max-width: 480px) {
