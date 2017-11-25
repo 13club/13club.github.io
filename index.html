@@ -1,141 +1,812 @@
-﻿<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<meta name="keywords" content="倒计时,冷空气,广东,博客">
-<meta name="description" content="倒计时,冷空气,广东,博客">
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<meta charset="utf-8">
-<title>倒计时啦</title>
-<link href="css/index.css" rel="stylesheet" type="text/css"/>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Liao</title>
+	<meta name="keywords" content="博客,简历,模板,廖,7,seven,前端">  
+	<meta name="description" content="博客,简历,模板,廖,7,seven,前端">  
+	<meta name="author" content="">
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+   <!-- script
+   ================================================== -->   
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
 </head>
-<body>
-<div id="app">
-  <div class="bus">
-    <div class="windows"></div>
-    <div class="lights"></div>
-    <div class="street"></div>
-  </div>
-  <countdown></countdown>
-</div>
-<div class="right">
-  <p>有倒计时提醒，妈妈再也用担心我没秋裤了!^_^嘻嘻</p>
-  <p>喜欢吗？喜欢就打赏一块钱呗^_^</p>
-  <a><img src="images/1yuan.jpg"></a>
-  <p>剧情透露！</p>
-  <p>网站即将上线，敬请期待……<a href="http://www.sevenliao.cn/" target="_blank">liao</a></p>
-  <p>哪些需要我们，尽请微博告诉我们！<a href="https://weibo.com/u/2268319503/" target="_blank">（新浪微博：爱挑战的旺仔）</a></p>
-</div>
 
-<script src="js/vue.min.js"></script>
-<!-- <script src="js/axios.min.js"></script> -->
+<body id="top">
+	<!-- header ================================================== -->
+   	<header>   	
+	   	<div class="row">
+	   		<div class="top-bar" style="background-color: transparent;">
+	   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+		   		<div class="logo">
+			        <a href="index.html">Liao</a>
+			    </div>		      
+			   	<nav id="main-nav-wrap">
+					<ul class="main-navigation">
+						<li class="current"><a class="smoothscroll"  href="#intro" title="">主页</a></li>
+						<li><a class="smoothscroll"  href="#about" title="">关于</a></li>
+						<li><a class="smoothscroll"  href="#resume" title="">简历</a></li>
+						<li><a class="smoothscroll"  href="#portfolio" title="">作品</a></li>
+						<li><a class="smoothscroll"  href="#services" title="">开心一刻</a></li>					
+						<li><a class="smoothscroll"  href="#contact" title="">沟通联系</a></li>	
+					</ul>
+				</nav>    		
+	   		</div>
+	   	</div>	
+   	</header> 
+   	<!-- /header -->
 
-
-<script>
-/**************************
-  COUNTDOWN COMPONENT
- **************************/
-Vue.component('countdown', {
-  template: `
-  <section class="countdown">
-    
-    <div v-show="!expired" class="timer">
-      <div class="box">
-        <div class="spacer"></div>
-        <p class="value">{{ theTime.days }}</p>
-        <p class="label">days(天)</p>
-      </div>
-      <div class="box">
-        <div class="spacer"></div>
-        <p class="value">{{ theTime.hours }}</p>
-        <p class="label">hours(小时)</p>
-      </div>
-      <div class="box">
-        <div class="spacer"></div>
-        <p class="value">{{ theTime.minutes }}</p>
-        <p class="label">minutes(分钟)</p>
-      </div>
-      <div class="box">
-        <div class="spacer"></div>
-        <p class="value">{{ theTime.seconds }}</p>
-        <p class="label">seconds(秒)</p>
-      </div>
-      <p class="text">冷空气要来广东啦！让我们倒计时吧^_^</p>
-    </div>
-
-    <div v-show="expired" class="expired-timer timer">
-      <div class="box">
-        <div class="spacer"></div>
-        <p class="value">It's the great day</p>
-        <p class="label">I'll have you in my arms</p>
-      </div>
-    </div>
-   
-  </section>
-`,
-  
- data() {
-   return{
-     deadline: '11 25, 2017 00:00:00',   //这里设置日期倒计时间
-     days: 'Are',
-     hours: 'you',
-     minutes: 'ready',
-     seconds: '？',
-     expired: false 
-   };
- },
-  
- computed: {
-   theTime(){
-     var ctx = this,
-         countDownDate = new Date(ctx.deadline).getTime();
-         
-     // Countdown loop    
-     var x =  setInterval(function(){
-       
-       // Difference between the 2 dates
-       var countDownDate = new Date(ctx.deadline).getTime(),
-           now = new Date().getTime(),
-           diff = countDownDate - now,
-
-           // Time conversion to days, hours, minutes and seconds
-           tdays = Math.floor(diff / (1000 * 60 * 60 * 24)),
-           thours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-           tminutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60)),
-           tseconds = Math.floor((diff % (1000 * 60)) / 1000);
-       
-       // Keep 2 digits
-       ctx.days = (tdays < 10) ? '0' + tdays : tdays;
-       ctx.hours = (thours < 10) ? '0' + thours : thours;
-       ctx.minutes = (tminutes < 10) ? '0' + tminutes : tminutes;
-       ctx.seconds = (tseconds < 10) ? '0' + tseconds : tseconds;
-
-       // Check for time expiration
-       if(diff < 0){
-         clearInterval(x);
-         ctx.expired = true;
-       }
-     }, 1000);
-     
-     // Return data
-     return {
-       days: ctx.days,
-       hours: ctx.hours,
-       minutes: ctx.minutes,
-       seconds: ctx.seconds
-     };
-   }
- }
-});
+	<!-- intro section================================================== -->
+   <section id="intro">   
+	   	<div class="intro-overlay"></div>	
+	   	<div class="intro-content">
+	   		<div class="row">
+	   			<div class="col-twelve">
+		   			<h5>Hello, World.</h5>
+		   			<h1>I'm Fighting With You.</h1>
+		   			<p class="intro-position">
+		   				<span>Front-end Developer</span>
+		   			</p>
+		   			<a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
+		   		</div>  
+	   		</div>   		 		
+	   	</div> 
+	   	<!-- /intro-content --> 
+	   	<ul class="intro-social">        
+	         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	         <li><a href="#"><i class="fa fa-behance"></i></a></li>
+	         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	         <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+	         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	    </ul> 
+	    <!-- /intro-social -->      	
+   </section> 
+   <!-- /intro   end -->
 
 
+   <!-- about section================================================== -->
+   <section id="about">  
+	   	<div class="row section-intro">
+	   		<div class="col-twelve">
+	   			<h5>关于</h5>
+	   			<h1>介绍下我自己</h1>
+	   			<div class="intro-info">
+	   				<img src="images/profile_p.jpg" alt="Profile Picture">
+	   				<p class="lead">十年磨一剑，一笑泯泯恩仇！</p>
+	   			</div>   			
+	   		</div>   		
+	   	</div> <!-- /section-intro -->
+	   	<div class="row about-content">
+	   		<div class="col-six tab-full">
+	   			<h3>简况</h3>
+	   			<p>我的宗旨是：一切皆有可能！</p>
+	   			<ul class="info-list">
+	   				<li>
+	   					<strong>Fullname:</strong>
+	   					<span>Seven Liao</span>
+	   				</li>
+	   				<li>
+	   					<strong>Birth Date:</strong>
+	   					<span>May *, 199*</span>
+	   				</li>
+	   				<li>
+	   					<strong>Job:</strong>
+	   					<span>Frontend Developer</span>
+	   				</li>
+	   				<li>
+	   					<strong>Website:</strong>
+	   					<span>www.13culb.com</span>
+	   				</li>
+	   				<li>
+	   					<strong>Email:</strong>
+	   					<span>*****@126.com</span>
+	   				</li>
+	   			</ul>
+	   		</div>
+	   		<div class="col-six tab-full">
+	   			<h3>技能</h3>
+	   			<p>掌握前端领域一些技术与技巧，正在探索伟大的前端领域.</p>
+				<ul class="skill-bars">
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>vue</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent90"><span>90%</span></div>
+				   	<strong>CSS3</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent85"><span>85%</span></div>
+				   	<strong>JQuery</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent95"><span>80%</span></div>
+				   	<strong>HTML5</strong>
+				   </li>
+				   <li>
 
-/**************************
-  ROOT COMPONENT
- **************************/
-var app = new Vue({
-  el: '#app'
-});</script>
+				   	<div class="progress percent75"><span>70%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				</ul>	
+	   		</div>
+	   	</div>
+	   	<div class="row button-section">
+	   		<div class="col-twelve">
+	   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+	   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+	   		</div>   		
+	   	</div>
+   </section> 
+   <!-- /process-->    
+
+
+   <!-- resume Section================================================== -->
+	<section id="resume" class="grey-section">
+		<div class="row section-intro">
+	   		<div class="col-twelve">
+	   			<h5>简历</h5>
+	   			<h1>更多我的信息</h1>
+	   			<p class="lead">最近的一些工作简介和学历情况</p>
+	   		</div>   		
+	   	</div> <!-- /section-intro--> 
+	   	<div class="row resume-timeline">
+	   		<div class="col-twelve resume-header">
+	   			<h2>工作经验</h2>
+	   		</div> <!-- /resume-header -->
+	   		<div class="col-twelve">
+	   			<div class="timeline-wrap">
+	   				<div class="timeline-block">
+		   				<div class="timeline-ico">
+		   					<i class="fa fa-graduation-cap"></i>
+		   				</div>
+		   				<div class="timeline-header">
+		   					<h3>web前端开发工程师</h3>
+		   					<p>June 2015 - Present</p>
+		   				</div>
+		   				<div class="timeline-content">
+		   					<h4>深圳市东方博雅科技有限公司</h4>
+		   					<p>一个全职的web前端开发工程师.</p>
+		   				</div>
+		   			</div> <!-- /timeline-block -->
+		   			<div class="timeline-block">
+		   				<div class="timeline-ico">
+		   					<i class="fa fa-graduation-cap"></i>
+		   				</div>
+		   				<div class="timeline-header">
+		   					<h3>Front-end Developer</h3>
+		   					<p>July 2014 - June 2015</p>
+		   				</div>
+		   				<div class="timeline-content">
+		   					<h4>Super Cool Agency</h4>
+		   					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+		   				</div>
+		   			</div> 
+	   			</div>    			
+	   		</div> 
+	   	</div> 
+	   	<div class="row resume-timeline">
+	   		<div class="col-twelve resume-header">
+	   			<h2>学历</h2>
+	   		</div> <!-- /resume-header -->
+	   		<div class="col-twelve">
+	   			<div class="timeline-wrap">
+	   				<div class="timeline-block">
+		   				<div class="timeline-ico">
+		   					<i class="fa fa-briefcase"></i>
+		   				</div>
+		   				<div class="timeline-header">
+		   					<h3>华南理工大学</h3>
+		   					<p>July 2014 - 毕业</p>
+		   				</div>
+		   				<div class="timeline-content">
+		   					<h4>数字媒体艺术专业</h4>
+		   					<p>助攻艺术类的专业，拿到了学士学位和本科毕业证书</p>
+		   				</div>
+		   			</div> <!-- /timeline-block -->
+		   			<div class="timeline-block">
+		   				<div class="timeline-ico">
+		   					<i class="fa fa-briefcase"></i>
+		   				</div>
+		   				<div class="timeline-header">
+		   					<h3>广东工程职业技术学院</h3>
+		   					<p>September 2011 - July 2014</p>
+		   				</div>
+		   				<div class="timeline-content">
+		   					<h4>软件技术专业</h4>
+		   					<p>前端知识邻域，如html,js，.net,sql…….</p>
+		   				</div>
+		   			</div> 
+	   			</div> 	
+	   		</div> 
+	   	</div> 
+	</section> 
+	<!-- /features -->
+
+
+	<!-- Portfolio Section
+   ================================================== -->
+	<section id="portfolio">
+		<div class="row section-intro">
+	   		<div class="col-twelve">
+	   			<h5>作品</h5>
+	   			<h1>看我喜欢的作品.</h1>
+	   			<p class="lead">我喜欢自然，我喜欢运动，我的最爱……</p>
+	   		</div>   		
+	   	</div> <!-- /section-intro--> 
+
+	   	<div class="row portfolio-content">
+	   		<div class="col-twelve">
+	   			<!-- portfolio-wrapper -->
+		         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+		         	<div class="bgrid folio-item">
+		               <div class="item-wrap">
+		               	<img src="images/portfolio/liberty.jpg" alt="Liberty">
+		                  <a href="#modal-01" class="overlay">	                  	           
+		                     <div class="folio-item-table">
+		                     	<div class="folio-item-cell">
+			     					       <h3 class="folio-title">Liberty</h3>	     					    
+			     					    	 <span class="folio-types">
+			     					       	  Graphic Design
+			     					       </span>
+			     					   </div>	                      	
+		                     </div>                    
+		                  </a>
+		               </div>	               
+		        		</div> <!-- /folio-item -->
+
+		        	<div class="bgrid folio-item">
+		               <div class="item-wrap">
+		               	<img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
+		               	<a href="#modal-02" class="overlay">              		                  
+		                     <div class="folio-item-table">
+		                     	<div class="folio-item-cell">
+		                     		<h3 class="folio-title">Shutterbug</h3>	     					    
+			     					    	<span class="folio-types">
+			     					       	  Web Design
+			     					      </span>		     		
+			     					   </div> 	                      	
+		                     </div>                    
+		                  </a>
+		               </div>
+		        		</div> <!-- /folio-item -->
+
+		            <div class="bgrid folio-item">
+		               <div class="item-wrap">
+		               	<img src="images/portfolio/clouds.jpg"alt="Clouds">
+		                  <a href="#modal-03" class="overlay">             		                  
+		                     <div class="folio-item-table">
+		                     	<div class="folio-item-cell">
+		                     		<h3 class="folio-title">Clouds</h3>	     					    
+			     					    	<span class="folio-types">
+			     					       	  Web Design
+			     					      </span>		     		
+			     					   </div> 	                      	
+		                     </div>                    
+		                  </a>
+		               </div>
+		        		</div> <!-- /folio-item -->
+
+		            <div class="bgrid folio-item">
+		               <div class="item-wrap">
+		               	<img src="images/portfolio/beetle.jpg" alt="Beetle">
+		                  <a href="#modal-04" class="overlay">                  	                 
+		                     <div class="folio-item-table">
+		                     	<div class="folio-item-cell">
+		                     		<h3 class="folio-title">Beetle</h3>	     					    
+			     					    	<span class="folio-types">
+			     					       	  Branding
+			     					      </span>		     		
+			     					   </div>  	                      	
+		                     </div>                    
+		                  </a>
+		               </div>
+		        		</div> <!-- /folio-item -->     
+
+		        		<div class="bgrid folio-item">
+		               <div class="item-wrap">
+		               	<img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+		                  <a href="#modal-05" class="overlay">             		                  
+		                     <div class="folio-item-table">
+		                     	<div class="folio-item-cell">
+		                     		<h3 class="folio-title">Lighthouse</h3>	     					    
+			     					    	<span class="folio-types">
+			     					       	  Web Development
+			     					      </span>		     		
+			     					   </div> 	                      	
+		                     </div>                    
+		                  </a>
+		               </div>
+		        		</div> <!-- /folio-item -->
+
+		            <div class="bgrid folio-item">
+		               <div class="item-wrap">
+		               	<img src="images/portfolio/salad.jpg" alt="Salad">
+		                  <a href="#modal-06" class="overlay">
+		                     <div class="folio-item-table">
+		                     	<div class="folio-item-cell">
+		                     		<h3 class="folio-title">Salad</h3>	     					    
+			     					    	<span class="folio-types">
+			     					       	  Branding
+			     					      </span>		     		
+			     					   </div>	                      	
+		                     </div>                    
+		                  </a>
+		               </div>
+		        		</div> <!-- /folio-item -->   
+	                    
+	                    <div class="copyrights">Collect from <a href="http://www.cssmoban.com/" >企业网站模板</a></div>
+
+		            <!-- modal popups - begin
+		            ============================================================= -->
+		            <div id="modal-01" class="popup-modal slider mfp-hide">	
+
+					     	<div class="media">
+					     		<img src="images/portfolio/modals/m-liberty.jpg" alt="" />
+					     	</div>      	
+
+						   <div class="description-box">
+						      <h4>Liberty</h4>		      
+						      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+						      <div class="categories">Web Development</div>			               
+						   </div>
+
+				         <div class="link-box">
+				            <a href="http://www.behance.net">Details</a>
+						      <a href="#" class="popup-modal-dismiss">Close</a>
+				         </div>		      
+
+					   </div> <!-- /modal-01 -->
+
+					   <div id="modal-02" class="popup-modal slider mfp-hide">	
+
+					     	<div class="media">
+					     		<img src="images/portfolio/modals/m-shutterbug.jpg" alt="" />
+					     	</div>      	
+
+						   <div class="description-box">
+						      <h4>Shutterbug</h4>		      
+						      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+						      <div class="categories">Web Design</div>			               
+						   </div>
+
+				         <div class="link-box">
+				            <a href="http://www.behance.net">Details</a>
+						      <a href="#" class="popup-modal-dismiss">Close</a>
+				         </div>		      
+
+					   </div> <!-- /modal-02 -->
+
+					   <div id="modal-03" class="popup-modal slider mfp-hide">	
+
+					     	<div class="media">
+					     		<img src="images/portfolio/modals/m-clouds.jpg" alt="" />
+					     	</div>      	
+
+						   <div class="description-box">
+						      <h4>Clouds</h4>		      
+						      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+						      <div class="categories">Web Design</div>			               
+						   </div>
+
+				         <div class="link-box">
+				            <a href="http://www.behance.net">Details</a>
+						      <a href="#" class="popup-modal-dismiss">Close</a>
+				         </div>		      
+
+					   </div> <!-- /modal-03 -->
+
+					   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+					     	<div class="media">
+					     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+					     	</div>      	
+
+						   <div class="description-box">
+						      <h4>Beetle</h4>		      
+						      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+						      <div class="categories">Branding</div>			               
+						   </div>
+
+				         <div class="link-box">
+				            <a href="http://www.behance.net">Details</a>
+						      <a href="#" class="popup-modal-dismiss">Close</a>
+				         </div>		      
+
+					   </div> <!-- /modal-04 -->
+
+					   <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+					     	<div class="media">
+					     		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+					     	</div>      	
+
+						   <div class="description-box">
+						      <h4>Lighthouse</h4>		      
+						      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+						      <div class="categories">Web Development</div>			               
+						   </div>
+
+				         <div class="link-box">
+				            <a href="http://www.behance.net">Details</a>
+						      <a href="#" class="popup-modal-dismiss">Close</a>
+				         </div>		      
+
+					   </div> <!-- /modal-05 -->
+
+					   <div id="modal-06" class="popup-modal slider mfp-hide">	
+
+					     	<div class="media">
+					     		<img src="images/portfolio/modals/m-salad.jpg" alt="" />
+					     	</div>      	
+
+						   <div class="description-box">
+						      <h4>Salad</h4>		      
+						      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+						      <div class="categories">Branding</div>			               
+						   </div>
+
+				         <div class="link-box">
+				            <a href="http://www.behance.net">Details</a>
+						      <a href="#" class="popup-modal-dismiss">Close</a>
+				         </div>		      
+
+					   </div> <!-- /modal-06 -->
+
+
+					   <!-- modal popups - end
+		            ============================================================= -->
+
+		         </div> <!-- /portfolio-wrapper --> 
+
+	   		</div>  <!-- /twelve -->   
+
+	   	</div> <!-- /portfolio-content --> 		
+	</section> <!-- /portfolio --> 
+
+
+	<!-- CTA Section
+   ================================================== -->
+	<section id="cta" class="grey-section">
+	   	<div class="row cta-content">
+	   		<div class="col-twelve section-ads">  
+				<h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">爱挑战的旺仔.</a></h2>
+				<p class="lead">来添加我的新浪微博吧！跟我分享下你有趣的事吧！	</p>
+				<p class="lead">喜欢我的个人网站就打赏我一块吧！嘻嘻^_^	</p>
+				<div style="height: 200px;">
+					<a style="display: block;width:200px;height: 200px;margin: 0 auto;"><img src="images/1yuan.jpg"></a>
+				</div>		     	
+	   		</div>
+	   	</div> <!-- /cta-content -->
+   	</section> <!-- /cta --> 
+
+	
+	<!-- services Section
+   ================================================== -->
+	<section id="services">
+		<div class="overlay"></div>
+		<div class="row section-intro">
+	   		<div class="col-twelve">
+	   			<h5>轻松一刻</h5>
+	   			<h1>分享一些冷笑话</h1>
+	   			<p class="lead">吃法的时候不要看哦，免得你把饭给喷出来！</p>
+	   		</div>   		
+	   	</div> <!-- /section-intro -->
+
+	   	<div class="row services-content">
+	   		<div id="owl-slider" class="owl-carousel services-list">
+		      		<div class="service">	
+			      		<span class="icon"><i class="icon-earth"></i></span>            
+			            <div class="service-content">	
+			            	 <h3>给他一卷透明胶</h3>
+				            <p class="desc">你的仇人在上厕所时，没纸出不来，你怎么办？？</p>
+			         	</div> 	         	 
+					</div> <!-- /service -->
+					<div class="service">	
+
+						<span class="icon"><i class="icon-window"></i></span>                          
+
+			            <div class="service-content">	
+
+			            	<h3>掐死四个！</h3>  
+
+				            <p class="desc">13个小朋友分9个橘子，如何分才公平
+			         		</p>
+
+			            </div>	                          
+
+				  	 </div> <!-- /service -->
+				   	<div class="service">
+
+					   	<span class="icon"><i class="icon-paint-brush"></i></span>		            
+
+			            <div class="service-content">
+
+			            	<h3>好汉歌</h3>
+
+				            <p class="desc">3.半夜遇见劫匪，他说不唱歌不让你走，你会唱什么？
+			        			</p> 
+			            </div> 	            	               
+			        </div> <!-- /service -->
+					<div class="service">
+						<span class="icon"><i class="icon-toggles"></i></span>	              
+			            <div class="service-content">
+			            	<h3>我肚子是隆的</h3>
+				            <p class="desc">4.说真的，你整过容么？</p> 
+			            </div>                
+					</div> <!-- /service -->
+				   	<div class="service">
+					   	<span class="icon"><i class="icon-image"></i></span>	            
+			            <div class="service-content">
+			            	<h3>尿尿</h3>
+				            <p class="desc">如果情敌掉水里了，你会怎么样？  </p> 
+
+			            </div>	               
+				   	</div> <!-- /service -->
+				   	<div class="service">
+					   	<span class="icon"><i class="icon-chat"></i></span>	   	           
+			            <div class="service-content">
+			            	 <h3>关灯好看</h3>
+				            <p class="desc">你觉得你本人好看，还是照片好看？</p> 
+			            </div>	               
+				   	</div> <!-- /service -->
+		      </div> <!-- /services-list -->
+	   	</div> <!-- /services-content -->
+	</section> <!-- /services -->	
+
+
+	<!-- stats Section================================================== -->
+	<section id="stats" class="count-up">
+		<div class="row">
+			<div class="col-twelve">
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+					</div> <!-- /stat -->					
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							900
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+					</div> <!-- /stat -->
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							200
+						</h3>
+
+						<h5 class="stat-title">
+							Awards Received
+						</h5>
+					</div> <!-- /stat -->									
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-light-bulb"></i>
+						</div>
+
+						<h3 class="stat-count">
+							120
+						</h3>
+
+						<h5 class="stat-title">
+							Crazy Ideas
+						</h5>
+					</div> <!-- /stat -->
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-cup"></i>
+						</div>
+
+						<h3 class="stat-count">
+							1500
+						</h3>
+
+						<h5 class="stat-title">
+							Coffee Cups
+						</h5>
+					</div> <!-- /stat -->
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-clock"></i>
+						</div>
+
+						<h3 class="stat-count">
+							7200
+						</h3>
+
+						<h5 class="stat-title">
+							Hours
+						</h5>
+					</div> <!-- /stat -->
+				</div> <!-- /stats-list -->
+			</div> <!-- /twelve -->
+		</div> <!-- /row -->
+	</section> <!-- /stats -->
+
+	
+   <!-- contact================================================== -->
+	<section id="contact">
+		<div class="row section-intro">
+	   		<div class="col-twelve">
+	   			<h5>联系方式</h5>
+	   			<h1>我们保持联系</h1>
+
+	   			<p class="lead">邮件联系方式</p>
+	   		</div> 
+	   	</div> <!-- /section-intro -->
+
+	   	<div class="row contact-form">
+
+	   		<div class="col-twelve">
+
+	            <!-- form -->
+	            <form name="contactForm" id="contactForm" method="post" action="">
+	      			<fieldset>
+
+	                  <div class="form-field">
+	 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+	                  </div>
+	                  <div class="form-field">
+		      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+		               </div>
+	                  <div class="form-field">
+		     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+		               </div>                       
+	                  <div class="form-field">
+		                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+		               </div>                      
+	                 <div class="form-field">
+	                     <button class="submitform">Submit</button>
+	                     <div id="submit-loader">
+	                        <div class="text-loader">Sending...</div>                             
+	       				      <div class="s-loader">
+									  	<div class="bounce1"></div>
+									  	<div class="bounce2"></div>
+									  	<div class="bounce3"></div>
+									</div>
+								</div>
+	                  </div>
+
+	      			</fieldset>
+	      		</form> <!-- Form End -->
+
+	            <!-- contact-warning -->
+	            <div id="message-warning">            	
+	            </div>            
+	            <!-- contact-success -->
+	      		<div id="message-success">
+	               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+	      		</div>
+
+	         </div> <!-- /col-twelve -->
+	   		
+	   	</div> <!-- /contact-form -->
+
+	   	<div class="row contact-info">
+
+	   		<div class="col-four tab-full">
+
+	   			<div class="icon">
+	   				<i class="icon-pin"></i>
+	   			</div>
+
+	   			<h5>Where to find me</h5>
+
+	   			<p>
+	            深圳xxxxxx<br>
+	            guagndong<br>
+	            china
+	            </p>
+
+	   		</div>
+
+	   		<div class="col-four tab-full collapse">
+
+	   			<div class="icon">
+	   				<i class="icon-mail"></i>
+	   			</div>
+
+	   			<h5>Email Me At</h5>
+
+	   			<p>xxx@126.com<br>
+				   	***@126.com			     
+				   </p>
+
+	   		</div>
+
+	   		<div class="col-four tab-full">
+
+	   			<div class="icon">
+	   				<i class="icon-phone"></i>
+	   			</div>
+
+	   			<h5>Call Me At</h5>
+
+	   			<p>Phone: (+08) 555 ****<br>
+				   	Mobile: (+08) 555 ****<br>
+				     	Fax: (+08) 555 ****
+				   </p>
+
+	   		</div>
+	   		
+	   	</div> <!-- /contact-info -->
+		
+	</section> <!-- /contact -->
+
+
+   <!-- footer ================================================== -->
+   <footer>
+     	<div class="row">
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+			      <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			      <li><a href="#"><i class="fa fa-behance"></i></a></li>
+			      <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			      <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+			      <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			   </ul> 
+	      		
+	      </div>   	
+   </footer>  
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
+
 </html>
