@@ -1,0 +1,86 @@
+/*girds.sass
+@autor RaysoLi
+*/
+//默认格数；
+/*
+
+//base
+<div class="row">
+	<div class="columns column-8">8</div>
+	<div class="columns column-4">4</div>
+</div>
+
+//offset
+<div class="row">
+  <div class="columns column-8 offset-1">8，向右偏移1份</div>
+  <div class="columns column-1 offset-2">1, 向右偏移2份</div>
+</div>
+
+//pull  push
+<div class="row">
+  <div class="columns column-8 push-4">8</div>
+  <div class="columns column-4 pull-12">4</div>
+</div>
+
+//嵌套
+<div class="row">
+  <div class="columns column-10">10
+	<div class="row">
+      <div class="column-8 columns">8 Nested
+        <div class="row">
+          <div class="column-8 columns">8 Nested Again</div>
+          <div class="column-4 columns">4</div>
+        </div>
+      </div>
+      <div class="column-4 columns">4</div>
+    </div>
+  </div>
+  <div class="columns column-2">2, last</div>
+</div>
+ */
+
+$width-default: 100% !default;
+$default-column: 12 !default;
+$single: 100% / $default-column;
+
+@mixin new-gird(
+  $row: 'row',
+  $column: 'columns',
+  $columns: 'column-',
+  $push: 'push',
+  $pushs: 'push-',
+  $pull: 'pull',
+  $pulls: 'pull-',
+  $offset: 'offset',
+  $offsets: 'offset-'
+) {
+	.#{$row} {
+		width: $width-default;
+		&:after {
+	      content: "";
+	      display: block;
+	      clear: both;
+	      width: 0;
+	      height: 0;
+	      visibility:hidden;
+	    }
+		& .#{$column} {
+			position: relative;
+			float: left;
+		}
+		& .#{$push} {
+		}
+		& .#{$pull} {
+		}
+		& .#{$offset} {
+		}
+		@for $i from 1 through $default-column {
+			& .#{$columns + $i} {width: $single * $i}
+			& .#{$pushs + $i} {left: $single * $i }
+			& .#{$pulls + $i} {left: -$single * $i}
+			& .#{$offsets + $i} {margin-left: $single * $i}
+		}
+	}
+}
+
+@include new-gird;

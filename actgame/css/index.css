@@ -1,0 +1,49 @@
+@charset 'utf-8';
+/*reset*/
+html,body{width:100%;height:100%;-webkit-text-size-adjust:none;}
+body,input,textarea,select,button{font:16px/1.42 'Microsoft YaHei',Tahoma,Arial,Helvetica,Geneva,sans-serif;color:#000;}
+input,textarea,select,button{font-size:1em;}
+body,ul,li,h1,h2,h3,h4,h5,h6,p,header,footer,nav,section,a,button,input,div,img{margin:0;padding:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+li{list-style:none;}
+a,button,input{outline:none;text-decoration:none;color:#000;}
+img,button{border:none;vertical-align:middle;}
+table{border-spacing:0;border-collapse:collapse;}
+.ma{margin:auto;}
+.fl{float:left;}
+.fr{float:right;}
+.cl:after{display:table;clear:both;content:'';}
+.clear{clear:both;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.pf{position:fixed;}
+.clearfix:after{display:block;visibility:hidden;clear:both;content:'';height:0;}
+/*index*/
+#loading{max-width:20%;position:absolute;top:50%;left:50%;transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%);-moz-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);z-index:10;}
+
+.hide{display: none;}
+
+
+
+
+
+.index_box{width: 100%;overflow-y:auto; background: #fff;}
+.index_box>.index_title{width: 100%;padding:4% 4%;height: 60px;line-height: 60px; color:#000;font-size: 18px;text-align: center;}
+.index_box>ul{height:100%;}
+.index_box>ul>li{margin: 2% 4%; display: inline-block; width: 92%; margin-bottom: 0; padding-bottom: 2%; border-bottom: 1px solid #eee;} 
+.index_box>ul>li>.li-icon{width: 80px;height: 80px; border-radius: 1em;overflow: hidden;float: left;}
+.index_box>ul>li>.li-icon>img{width: 100%;height: 100%;}
+.index_box>ul>li>.li-cont{height:80px;margin-left: 90px;}
+.index_box>ul>li>.li-cont>p{display: flex; align-items: center; width: 100%; height: 50%; float: left;}
+
+
+.return_Btn{position: absolute;top:1%;left: 1%;width: 50px;height: 50px; background: url(./../images/back.png) no-repeat 0 0; background-size: 100% 100%; z-index: 99; display: none;}
+
+
+.act_box{position: absolute;top:0;left: 0;width: 100%;height: 100%; display: none;}
+.act_box #contentWrapId{position:relative;width:100%;height:100%}
+.act_box .content{display: none;}
+
+

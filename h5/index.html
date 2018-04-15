@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <script src="js/wxShare.js"></script>
+</head>
+<body>
+    <script src="./js/rem.js"></script>
+    <!--分享遮罩层-->
+    <div class="shareBg">
+        <img class="share" src="images/share.png"/>
+    </div>
+    <div class="changeScreen">
+        <span>为了更好的体验，请使用竖屏浏览</span>
+        <img src="images/rotate.png"/>
+    </div>     
+    <div class="main mainBg1"> 
+        <video
+              id="video1" 
+              src="./bb.mp4" 
+              preload="auto"
+              webkit-playsinline
+              playsinline="true"
+              x-webkit-airplay="true"
+              x5-video-player-type="h5"  
+              x5-video-player-fullscreen="true"
+              x5-video-orientation="portraint"
+              style="object-fit:fill;position: absolute;width: 1px;height: 1px;left: 0;top: 0;"
+        ></video>
+        <div class="joinBtn moveBtn" style="display:none;">
+            <img class="join" src="images/join.png"/>
+        </div> 
+        <div class="startBtn startBtnBg"></div>
+
+        <img src="images/loadingPic.jpg" alt="" class="loadingPic" style="display:none;">
+
+        <div class="startBtn1" style="display:none"></div>
+
+        <div class="content">
+            <span class="span1"></span>
+            <span class="span2"></span>
+            <div class="reward"></div>
+        </div> 
+    </div>
+
+    <script src="./js/zepto.min.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var video = document.querySelector('video');
+        // $.get('http://h5.boyaa.com/api/act/init/?web_id=70',function () {
+
+        // })
+
+        videoMethod(video);
+
+        $(".startBtn").click(function(){
+            setTimeout(function () {
+                $('.main').removeClass('mainBg1');
+                $('.main').addClass('mainBg2');
+            },3000)
+            video.style.width = window.innerWidth + "px";
+            video.style.height = window.innerHeight + "px";
+            video.play();
+         })
+
+
+        $(".startBtn1").click(function(){
+            $('.main').removeClass('mainBg2');
+            $(".startBtn").hide();
+            $(".joinBtn").hide();
+            $(".startBtn1").hide();
+            $('#video1').show();
+            video.style.width = window.innerWidth + "px";
+            video.style.height = window.innerHeight + "px";
+            video.play();
+        })
+        function videoMethod(video) {
+            video.addEventListener('ended', function (e) {  
+                $('#video1').hide();
+                $('.main').addClass('mainBg2');
+                $(".joinBtn").show();
+                $(".startBtn1").show();
+            })
+            //进入全屏
+            video.addEventListener("x5videoenterfullscreen", function(){
+              window.onresize = function(){
+                video.style.width = window.innerWidth + "px";
+                video.style.height = window.innerHeight + "px";
+                console.log(window.innerWidth,window.innerHeight,`we`)
+              }
+            })
+        }
+
+
+        // $(".btn").off().on("click",function(){      
+        //     window.location.href = "http://dandong.liaoninggames.com/?action=index.statis&type=0eea7e06604930eb40fe5ef11fdbe263";
+        // })
+
+    //获取URL中参数值
+    function getQueryString (name){
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");  
+        var r = window.location.search.substr(1).match(reg);  //获取url中"?"符后的字符串并正则匹配
+        var context = "";  
+        if (r != null)context = r[2];  
+        reg = null;  
+        r = null;  
+        return context == null || context == "" || context == "undefined" ? "" : context;  
+    }
+    var type = (function isSystem(){
+        //设备类型
+        var userAgentInfo = "PC";
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+        for (var v = 0; v < Agents.length; v++) {
+            if (navigator.userAgent.indexOf(Agents[v]) > 0) {
+                userAgentInfo = Agents[v];
+                break;
+            }
+        }
+        if(userAgentInfo == "Android"){
+            return 2;
+        }else if(userAgentInfo == "iPhone" || userAgentInfo == "iPod" || userAgentInfo == "iPad" ){
+            return 3;
+        }
+    })()
+    $(".joinBtn").click(function(){
+        download();
+        // $.get('http://h5.boyaa.com/api/act/button/?web_id=70&button_name=下载',function () {
+
+        // })
+    })
+    function download(){
+        alert("download")
+        // if(type == 2){
+        //     window.location.href = "http://hldao.266.com/";
+        // }else if(type == 3){
+        //     window.location.href = "https://itunes.apple.com/cn/app/id1150988697";
+        // } 
+    }
+    var span1 = getQueryString("span1");
+    var span2 = getQueryString("span2");
+    var span3 = getQueryString("span3");
+    var headImg = getQueryString("headImg");
+    var renwuImg = getQueryString("renwuImg");
+    var goodImg = getQueryString("goodImg");
+    $("#headImg").attr('src',headImg); 
+    $("#renwuImg").attr('src',renwuImg); 
+    $("#goodImg").attr('src',goodImg); 
+    $(".span1").text(decodeURI(span1));
+    $(".span2").text(decodeURI(span2));
+    $(".span3").text("*"+decodeURI(span3));
+    $('.shareBg').off().on("click",function(){
+        $(".shareBg").hide();
+        $.get('http://h5.boyaa.com/api/act/button/?web_id=70&button_name=分享',function () {
+
+        })
+    });
+    $('#btn').off().on("click",function(){
+        window.location.href = "http://hldao.266.com/";
+    });
+    window.shareData = {
+        'imgUrl': 'https://dfqppic.266.com/dfqp/pic/shop/aiad8xjn.png',
+        'timeLineLink': window.location.href,
+        'tTitle': '葫芦岛人的回忆！第3个你玩过么？',
+        'tContent':'反正我没玩过'
+    };
+    </script>
+    <script src='./js/wxShare.js'></script>
+</body>
+</html>

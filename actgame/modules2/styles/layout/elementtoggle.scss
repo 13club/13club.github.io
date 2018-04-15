@@ -1,0 +1,31 @@
+/*elementtoggle.scss
+@autor RaysoLi
+*/
+
+/*
+<div class="my-toggle"></div>
+<style>
+.my-toggle{-webkit-animate:toggle 1s;animate:toggle 1s}
+</style>
+ */
+$url-a : "../a.png";
+$url-b : "../b.png";
+$total : 9;
+$single : 100% / $total;
+@function getUrl($i) {
+	@return	if($i % 2 == 0, $url-a, $url-b);
+}
+@mixin toggle-element{
+	@-webkit-keyframes toggle {
+		@for $i from 0 through $total {
+		  #{$i * $single} { background-image: url( getUrl($i) ); }
+		}
+	}
+	@keyframes toggle {
+		@for $i from 0 through $total {
+		  #{$i * $single} { background-image: url( getUrl($i) ); }
+		}
+	}
+}
+
+@include toggle-element;

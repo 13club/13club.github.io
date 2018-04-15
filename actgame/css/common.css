@@ -1,0 +1,171 @@
+@charset 'utf-8';
+html,body{width:100%;height:100%;-webkit-text-size-adjust:none;font:16px/1.42 'Microsoft YaHei',Tahoma,Arial,Helvetica,Geneva,sans-serif;color:#000;}
+
+.cl:before,.cl:after{content:"";clear:both;display:table;}
+
+/*表单元素*/
+input::-webkit-input-placeholder { color:#ccc; font-size: 0.7em;}
+input::-moz-placeholder { color:#ccc; }
+
+
+/*入口页-loading*/
+.loading_contence{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    z-index: 10;
+}
+.loading_contence>.loading-img{
+    width: 100px;
+    height: 100px;
+}
+.loading_contence>.loading-img>img{width: 100%;height: 100%;}
+.loading_contence>.loading_text{
+    margin: 4% auto;
+    text-align: center;
+    color: #999;
+    font-weight: bold;
+}
+
+
+
+/*icon*/
+.weui-icon-info-circle {
+    font-size: 23px;
+    color: #09BB07;
+}
+[class^="weui-icon-"], [class*=" weui-icon-"] {
+    display: inline-block;
+    vertical-align: middle;
+    font: normal normal normal 14px/1 "weui";
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.weui-icon-info-circle:before {
+    content: "\EA0C";
+}
+/*flex布局*/
+.weui-flex {
+    display: flex;
+}
+.weui-flex__item{
+    flex: 1;
+}
+
+/*mask*/
+body.darkmask>div{
+    height: 100%;
+    overflow: hidden;
+}
+body.darkmask:before{
+    content:'为了更好的体验，请使用竖屏浏览';
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:#b91f2b;
+    z-index:9999;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    letter-spacing:1px;
+    padding-top: 15%;
+}
+body.darkmask:after{
+    content: '';
+    width: 74px;
+    height: 110px;
+    z-index: 10000;
+    background: url(./../images/rotate.png) 0 0 no-repeat;
+    background-size: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 40%;
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    -webkit-animation: tablet 1.6s ease-in infinite;
+    -moz-animation: tablet 1.6s ease-in infinite;
+    -o-animation: tablet 1.6s ease-in infinite;
+    -ms-animation: tablet 1.6s ease-in infinite;
+    animation: tablet 1.6s ease-in infinite;
+}
+/*活动超过阈值，提示下线*/
+body .outline-mask{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:20;}
+body .outline-mask p{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);text-align:center;font-size:2em;color:#000;width:80%;padding:5%;background:#fff;border-radius:0.2em;}
+@-webkit-keyframes tablet {
+    0% {
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    25% {
+        -webkit-transform: rotate(0deg);
+    }
+    
+    50% {
+        -webkit-transform: rotate(0deg);
+    }
+    
+    75% {
+        -webkit-transform: rotate(-90deg);
+    }
+    
+    100% {
+        -webkit-transform: rotate(-90deg);
+    }
+}
+
+@-moz-keyframes tablet {
+    0% {
+        -moz-transform: rotate(-90deg);
+    }
+    
+    25% {
+        -moz-transform: rotate(0deg);
+    }
+    
+    50% {
+        -moz-transform: rotate(0deg);
+    }
+    
+    75% {
+        -moz-transform: rotate(-90deg);
+    }
+    
+    100% {
+        -moz-transform: rotate(-90deg);
+    }
+}
+
+@keyframes tablet {
+    0% {
+        transform: rotate(-90deg);
+    }
+    
+    25% {
+        transform: rotate(0deg);
+    }
+    
+    50% {
+        transform: rotate(0deg);
+    }
+    
+    75% {
+        transform: rotate(-90deg);
+    }
+    
+    100% {
+        transform: rotate(-90deg);
+    }
+}
