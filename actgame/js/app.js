@@ -74,7 +74,11 @@ oUl.addEventListener('click',function(ev){
             $("body>.index_box").hide();
             $("body>.act_box").show();
             $("body>.return_Btn").show();
-			$('.act_box').find('.content').eq(index).show();
+            if($('.act_box').find('.content').eq(index)){
+            	$('.act_box').find('.content').eq(index).show();
+            }else{
+            	alert('拼命加载中！请稍等……')
+            }
 			document.title = actDataList[index].title; 
             break;
         }
