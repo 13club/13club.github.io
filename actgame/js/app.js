@@ -19,6 +19,13 @@ var actDataList = [{
 	"icon":"icon.jpg?1",
 	"describe":"德州扑克玩法，看谁大咯",
 	"actName":"turncard"
+},{
+	"id":"3",
+	"name":"飞机赛跑",
+	"title":"看谁飞的更加远",
+	"icon":"icon.jpg?v1",
+	"describe":"比比飞机，看谁飞的更加远",
+	"actName":"feijigame"
 }]
 console.log(actDataList)
 
@@ -38,16 +45,8 @@ if(actDataList.length==0){
 }
 
 
-// var ntpl = 'xqwxtreeplanting';
-// var solidScriptStr = "<div id='contentWrapId' style='position:relative;width:100%;height:100%'><app></app></div><script src='./actmod/#/dist/main.js'></script>";
-
-
-
 // $("body").empty();
 $("body>.loading_contence").hide();
-
-// $("body").append(solidScriptStr.replace('#', ntpl));
-
 
 
 var returnBtn = '<button class="return_Btn" onclick="returnIndexUl()"></button>';
@@ -95,17 +94,3 @@ function returnIndexUl(){
 }
 
 
-$(".actBtn").click(function(e){
-	console.log('点击')
-	var index = $(e.currentTarget).closest('li').index();
-	console.log(index)
-	// getAct();
-})
-
-function getAct(){
-	// console.log('点击')
-	// ntpl = 'xqwxtreeplanting';
-	// var solidScriptStr = "<div id='contentWrapId' style='position:relative;width:100%;height:100%'><app></app></div><script src='./actmod/#/dist/main.js'></script>";
-	// $("body").empty();
-	// $("body").append(solidScriptStr.replace('#', ntpl));
-}
