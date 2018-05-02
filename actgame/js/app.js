@@ -23,7 +23,7 @@ var actDataList = [{
 	"id":"3",
 	"name":"飞机赛跑",
 	"title":"看谁飞的更加远",
-	"icon":"icon.jpg?v1",
+	"icon":"icon.jpg?v2",
 	"describe":"比比飞机，看谁飞的更加远",
 	"actName":"feijigame"
 }]
