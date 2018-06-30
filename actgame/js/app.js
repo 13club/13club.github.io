@@ -1,26 +1,5 @@
 var actDataList = [{
 	"id":"0",
-	"name":"转盘抽奖",
-	"title":"转盘抽大奖",
-	"icon":"icon.jpg",
-	"describe":"转盘抽大奖，转到啥就抱啥",
-	"actName":"turntableconfig"
-},{
-	"id":"1",
-	"name":"九宫格",
-	"title":"九宫格抽大奖",
-	"icon":"icon.jpg?1",
-	"describe":"九宫格抽大奖，抽到啥就是啥",
-	"actName":"jiugongge"
-},{
-	"id":"2",
-	"name":"翻牌扑克",
-	"title":"翻牌扑克游戏",
-	"icon":"icon.jpg?1",
-	"describe":"德州扑克玩法，看谁大咯",
-	"actName":"turncard"
-},{
-	"id":"3",
 	"name":"飞机赛跑",
 	"title":"看谁飞的更加远",
 	"icon":"icon.jpg?v2",
