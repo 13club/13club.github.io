@@ -29,7 +29,7 @@ window.onload = window.onresize = changeSize, $(function () {
 
     if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
         // 移动端
-        alert('建议横屏观看！')
+        // alert('建议横屏观看！')
     } else {
         //
     }
