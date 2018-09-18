@@ -20,17 +20,9 @@ window.onload = window.onresize = changeSize, $(function () {
             console.log("支持播放: ")
         }).
         catch (function () {
-            c = !0, i.muted = !0, e(), o.prop("voice", !0), o.prop("autoplay", !0), i.play()
+            c = !0, i.muted = !0, e(), o.prop("muted", !0), o.prop("autoplay", !0), i.play()
         })
     }), n.on("click", function () {
         i.muted = !i.muted, c = !c, e()
     })
-
-
-    if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-        // 移动端
-        // alert('建议横屏观看！')
-    } else {
-        //
-    }
 });
