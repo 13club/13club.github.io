@@ -51,6 +51,9 @@
             $.ajax({
                 type: "post",
                 url: "http://13culb.com/data/data.php",
+                heads: {
+                    'content-type': 'application/x-www-form-urlencoded'
+                },
                 data: null,//提交到demo.php的数据
                 dataType: "json",//回调函数接收数据的数据格式
                 success: function (msg) {
