@@ -1,5 +1,5 @@
 <?php
-    header('Content-type:text/application/json;charset=utf-8;method = RequestMethod.POST');
+    header('Content-type:application/json;charset=utf-8;method = RequestMethod.POST');
 
     $data='{
         status:"0",
