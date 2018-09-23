@@ -1,6 +1,6 @@
 <?php
     // header('Content-type:application/x-www-form-urlencoded;charset=utf-8;method = RequestMethod.POST');
-    header('Content-type:application/x-www-form-urlencoded;Accept: application/json;charset=utf-8;');
+    header('Content-type:application/x-www-form-urlencoded;charset=utf-8;');
 
     $data='{
         status:"0",
