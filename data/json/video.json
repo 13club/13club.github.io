@@ -1,0 +1,9 @@
+[
+    {
+      "id": "videoType.videolite",
+      "icon": "media",
+      "name": "短视频",
+      "open": false,
+      "pages": [{ "filename": "video", "name": "视频一", "tplname": "video" }]
+    }
+  ]
