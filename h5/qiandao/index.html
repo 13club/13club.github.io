@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>微信签到</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="js/sizeAdaptation.js"></script>
+</head>
+
+<body>
+  <div class="wrapper" id="app" v-show="showData">
+    <div class="cont pa">
+      <section>
+        <ul class="day_list">
+          <li v-for="(item,key) in dayData">
+            <!-- dayData 每个li数据中带个key值为状态；实现图片的状态展示 -->
+            <div :class="['l-mid',item==1?'si-xqi_show':'si-xqi_back']">
+              <p v-if=" item==1 ">第{{item}}天</p>
+            </div>
+          </li>
+        </ul>
+        <div class="qiandao l-mid" @click="onClickPage1Bten">
+          <p>点击签到</p>
+        </div>
+        <div class="ruletit l-mid">
+          <p>活动规则</p>
+        </div>
+        <ul class="rulelist">
+          <li v-for="item in rulelist" v-html="item"></li>
+        </ul>
+      </section>
+      <div class="dialog dig-box" v-if="showBandinDialog">
+        <div class="dlg-shadow"></div>
+        <section>
+          <div class="dig_jb pa"></div>
+          <div class="dig_tit l-mid pa">
+            <p>签到成功，获得了1000金币。</p>
+          </div>
+          <div class="dig_close pa" @click="onClickCloseBandinDialog"></div>
+          <div class="dig_text l-mid pa">
+            <p>立即进入游戏查看</p>
+          </div>
+          <div class="dig_btn l-mid pa" @click="onJumpGame">
+            <p>进入游戏</p>
+          </div>
+        </section>
+      </div>
+      <div class="dialog dig-box" v-if="showOverDialog">
+        <div class="dlg-shadow"></div>
+        <section>
+          <div class="dig_tit l-mid pa">
+            <p>您今天已经签到过了</p>
+          </div>
+          <div class="dig_close pa" @click="onClickCloseOverDialog"></div>
+          <div class="dig_text l-mid pa">
+            <p>明天再来吧！</p>
+          </div>
+          <div class="dig_btn l-mid pa" @click="onJumpGame">
+            <p>进入游戏</p>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+  <script type="text/javascript" src="./js/vue.2.4.4.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      data() {
+        return {
+          showData: false,
+          showOverDialog: false,
+          showBandinDialog: false,
+          dayData: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          rulelist: {
+            0: '1.关注sevenliao微信公众号才能参与本活动，参与前请先绑定游戏账号，奖励直接发到游戏账号。',
+            1: '2.每日签到送<b>1000金币</b>，连续签到7天额外送<b>1888金币</b>，连续签到15天额外送<b>2888金币</b>。',
+            2: '3.活动期间，每个微信每天只能签到一次。',
+            3: '4.活动期间如遇中断，或连续签到15天达成，将重新计算天数。',
+            4: '5.如遇系统延迟未收到奖励，请退出游戏重新登陆查收。'
+          },
+          page2rulelist: {
+            0: '1.关注sevenliao微信公众号才能参与本活动。',
+            1: '2.成功绑定游戏账号，奖励2000金币。',
+            2: '3.活动期间，每个微信每天只能绑定一次，已经绑定不发放奖励。',
+            3: '4.奖励直接发放至您绑定的游戏账号。',
+            4: '5.如遇系统延迟未收到奖励，请退出游戏重新登陆查收。'
+          },
+          userid: '',
+
+        }
+      },
+      mounted() {
+        console.log('数据请求')
+        this.showData = true;
+        console.log(this.dayData)
+        if (typeof (Storage) !== "undefined" && sessionStorage.getItem("dayData") != null) {
+          console.log(sessionStorage.getItem("dayData"))
+         
+          let data = sessionStorage.getItem("dayData");
+          this.$nextTick(function () {
+            this.dayData = JSON.parse(data);
+            console.log(this.dayData)
+          })
+        }
+      },
+      methods: {
+        onClickPage1Bten: function () {
+
+          let today = this.dayData[0]
+          if(today==0){
+            this.dayData = [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            sessionStorage.setItem("dayData", JSON.stringify([1, 0, 0, 0, 0, 0, 0, 0, 0, 0]) );
+          }else{
+            this.showOverDialog = true;
+          }
+
+        },
+        onClickCloseOverDialog: function () {
+          this.showOverDialog = false;
+        },
+
+
+        onClickCloseBandinDialog: function () {
+          this.showBandinDialog = false;
+        },
+
+        onJumpGame: function () {
+          // alert('你跳啊')
+          window.location.href = 'http://13culb.com/actgame/index.html';
+        }
+
+
+
+      }
+    })
+  </script>
+  <script>
+    var fade = document.getElementById("isfade");
+    var showgiftstip = document.getElementById("showgiftstip");
+    var showrank = document.getElementById("showrank");
+    var showrule = document.getElementById("showrule");
+    var showexchange = document.getElementById("showexchange");
+    function showgiftstipdialog() {
+      fade.style.display = "block";
+      showgiftstip.style.display = "block";
+    }
+    function showrankdialog() {
+      fade.style.display = "block";
+      showrank.style.display = "block";
+    }
+    function showruledialog() {
+      fade.style.display = "block";
+      showrule.style.display = "block";
+    }
+    function hidedialog() {
+      fade.style.display = "none";
+      showrule.style.display = "none";
+      showexchange.style.display = "none";
+      showgiftstip.style.display = "none";
+      showrank.style.display = "none";
+    }
+    function showexchangeadialog() {
+      fade.style.display = "block";
+      showexchange.style.display = "block";
+    }
+    function ongetaward() {
+      fade.style.display = "none";
+      showrank.style.display = "none";
+      alert('想得美……')
+    }
+
+  </script>
+</body>
+
+</html>
