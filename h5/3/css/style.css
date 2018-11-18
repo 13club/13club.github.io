@@ -139,7 +139,7 @@ html
     text-align: center;
 }
 
-.swiper-slide1,.swiper-slide2,.swiper-slide3,.swiper-slide4,.swiper-slide5,.swiper-slide6
+.swiper-slide1,.swiper-slide1_1,.swiper-slide2,.swiper-slide3,.swiper-slide4,.swiper-slide5,.swiper-slide6
 {
     background: url(../images/common/bg.jpg) no-repeat;
     background-size: 100% 100%;
@@ -279,15 +279,79 @@ html
 .fadein-slide1Pic1
 {
     position: absolute;
-    top: 45%;
-    left: 5%;
-    width: 90%;
+    top: 33%;
+    left: -5%;
+    width: 110%;
 
-    -webkit-animation: totop 1s both linear;
+    /* -webkit-animation: totop 1s both linear; */
+
+    -webkit-animation: show 1s 1.5s both linear,zhaoshou2 2s both linear infinite;
+
+    
+    transform-origin:50% 0%;/*定义动画的旋转中心点*/ 
+    -ms-transform-origin:50% 0%;  /* IE 9 */ 
+    -webkit-transform-origin:50% 0%; /* Safari 和 Chrome */ 
+    -moz-transform-origin:50% 0%; /* Firefox */ 
+    -o-transform-origin:50% 0%; /* Opera */ 
 }
 
 
 /* ------------------------------------------------- */
+
+/*第1_1页*/
+.page1_1-title{
+    position: absolute;
+    top: 2%;
+    left: 0%;
+    width: 100%;
+    font-size: 40px;
+    color: #fff;
+
+    -webkit-animation: show 1s both linear,shangxia4 3s both linear infinite;
+}
+
+.fadein-slide1_1pic1{
+    position: absolute;
+    top: 6.9%;
+    left: 1%;
+    width: 50.78125%;
+
+    -webkit-animation: xiexia 2s both linear infinite;
+}
+.fadein-slide1_1pic2{
+    position: absolute;
+    top: 15.9%;
+    left: 40%;
+    width: 56.78125%;
+  
+    -webkit-animation: shangxia 2s both linear infinite;
+}
+.fadein-slide1_1pic3{
+    position: absolute;
+    top: 36.9%;
+    left: 2.609375%;
+    width: 61.78125%;
+
+    -webkit-animation: totop .5s .5s both linear;
+}
+.fadein-slide1_1pic4{
+    position: absolute;
+    top: 68.9%;
+    left: 2.609375%;
+    width: 43.78125%;
+
+    -webkit-animation: guang 1s both ease infinite;
+}
+.fadein-slide1_1pic5{
+    position: absolute;
+    top: 69.9%;
+    left: 51.609375%;
+    width: 46.78125%;
+
+    -webkit-animation: guang 1s both ease infinite;
+
+
+}
 
 /*page2*/
 .page2-title{
@@ -929,6 +993,26 @@ html
     75%
     {
         -webkit-transform: translate(-10%,0%) rotate(-7deg);
+    }
+}
+@-webkit-keyframes zhaoshou2
+{
+    0%,
+    100%
+    {
+        -webkit-transform: translate(0,0) rotate(0deg);
+    }
+    25%
+    {
+        -webkit-transform: translate(0%,0%) rotate(-7deg);
+    }
+    50%
+    {
+        -webkit-transform: translate(0%,0%) rotate(0deg);
+    }
+    75%
+    {
+        -webkit-transform: translate(0%,0%) rotate(7deg);
     }
 }
 @-webkit-keyframes shangxia
