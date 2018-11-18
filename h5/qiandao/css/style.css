@@ -67,7 +67,8 @@ top: 0;
 
 
 
-.day_list{  position: absolute;
+.day_list{  
+  position: absolute;
     top: 24%;
     left: 14%;
     width: 72%;
