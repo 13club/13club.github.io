@@ -15,10 +15,11 @@
 	<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
 	<META HTTP-EQUIV="expires" CONTENT="0">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/pace-theme-big-counter.css">
 	<script src="js/libs.min.js"></script>
 </head>
 
-<body style="margin:0px;">
+<body style="margin:0px; display: none;" id="body">
 	<button type="button" id="audioBtn"></button>
 	<audio id="audioplay" autoplay loop>
 		<source src="images/1.mp3" type="audio/mpeg">
@@ -158,7 +159,33 @@
 	</div>
 
 </body>
+<script src="js/pace.js"></script>
 <script>
+	function load(time) {
+		var x = new XMLHttpRequest()
+		x.open('GET', "http://13culb.com/h5/3/index.html?" + time, true);
+		x.send(null);
+	};
+	
+	load(20);
+	load(100);
+	load(500);
+	load(2000);
+	load(3000);
+
+	setTimeout(function () {
+		Pace.ignore(function () {
+			console.log('ok')
+			load(3100);
+		});
+	}, 4000);
+
+	Pace.on('hide', function () {
+		// console.log('done');
+		$('#body').show();
+	});
+
+
 	$(document).ready(function () {
 		var clientWidth = window.innerWidth,
 			clientHeight = window.innerHeight,
