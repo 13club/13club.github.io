@@ -218,7 +218,7 @@
 	function load(time) {
 		var x = new XMLHttpRequest()
 		x.open('GET', "http://13culb.com/h5/3/index.html?" + time, true);
-		x.send(null);
+		x.send();
 	};
 
 	load(20);
@@ -233,7 +233,6 @@
 	// 		load(3100);
 	// 	});
 	// }, 4000);
-
 
 	Pace.on("done",function(){
     	console.log("页面加载完毕");
