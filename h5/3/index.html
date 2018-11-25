@@ -184,6 +184,7 @@
 					e.hide(),
 						$(".swiper-slide-active").find(e).show(),
 						$("#audioBtn").click(function () {
+							alert('开/关背景音乐')
 							i ? ($("#audioBtn").css("background", "url(images/icon.png) no-repeat 0 0"), document.getElementById("audioplay").play()) : ($("#audioBtn").css("background", "url(images/icon.png) no-repeat -100px 0"), document.getElementById("audioplay").pause()),
 								i = !i
 						})
