@@ -16,6 +16,7 @@ if(actDataList.length==0){
 		$li='';
 	actDataList.forEach((data, index)=>{
 		$li = $li + '<li><div class="li-icon"><img src="./actmod/'+data.actName+'/'+data.icon+'"></div><div class="li-cont"><p><b>'+data.name+'</b></p><p>'+data.describe+'</p></div></li>';
+		$li = $li + '<li><p class="li-erweiTit">喜欢就打赏一块钱呗^_^</p><div class="li-erwei"><img src="./images/1yuan.jpg"></div></li>'
 	})
 	$ul = '<ul id="indexUl">'+$li+'</ul>';
 	document.title = '游戏中心'; 
