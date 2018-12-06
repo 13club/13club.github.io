@@ -19,7 +19,7 @@ if(actDataList.length==0){
 		$li = $li + '<li><p class="li-erweiTit">喜欢就打赏一块钱呗^_^</p><div class="li-erwei"><img src="./images/1yuan.jpg"></div></li>'
 	})
 	$ul = '<ul id="indexUl">'+$li+'</ul>';
-	document.title = '游戏中心'; 
+	document.title = '13Culb游戏中心'; 
 	var solidScriptStr = '<div class="index_box"><div class="index_title">游戏中心</div>'+$ul+'</div>';
 	$("body").append(solidScriptStr);
 }
