@@ -20,7 +20,7 @@ if(actDataList.length==0){
 	})
 	$ul = '<ul id="indexUl">'+$li+'</ul>';
 	document.title = '13Culb游戏中心'; 
-	var solidScriptStr = '<div class="index_box"><div class="index_title">游戏中心</div>'+$ul+'</div>';
+	var solidScriptStr = '<div class="index_box"><div class="index_title">13Culb游戏中心</div>'+$ul+'</div>';
 	$("body").append(solidScriptStr);
 }
 
