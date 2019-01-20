@@ -5,6 +5,13 @@ var actDataList = [{
 	"icon":"icon.jpg?v2",
 	"describe":"比比飞机，看谁飞的更加远",
 	"actName":"feijigame"
+},{
+	"id":"1",
+	"name":"逗你玩",
+	"title":"逗你玩，看看你有多厉害",
+	"icon":"icon.jpg",
+	"describe":"逗你玩，来玩玩智商",
+	"actName":"douniwan"
 }]
 console.log(actDataList)
 
@@ -16,9 +23,9 @@ if(actDataList.length==0){
 		$li='';
 	actDataList.forEach((data, index)=>{
 		$li = $li + '<li><div class="li-icon"><img src="./actmod/'+data.actName+'/'+data.icon+'"></div><div class="li-cont"><p><b>'+data.name+'</b></p><p>'+data.describe+'</p></div></li>';
-		$li = $li + '<li><p class="li-erweiTit">喜欢就打赏一块钱呗^_^</p><div class="li-erwei"><img src="./images/1yuan.jpg"></div></li>'
 	})
-	$ul = '<ul id="indexUl">'+$li+'</ul>';
+	$ul = '<ul id="indexUl">'+$li
+	+ '<li><p class="li-erweiTit">喜欢就打赏一块钱呗^_^</p><div class="li-erwei"><img src="./images/1yuan.jpg"></div></li>'+'</ul>';
 	document.title = '13Culb游戏中心'; 
 	var solidScriptStr = '<div class="index_box"><div class="index_title">13Culb游戏中心</div>'+$ul+'</div>';
 	$("body").append(solidScriptStr);
