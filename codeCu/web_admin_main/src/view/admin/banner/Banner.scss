@@ -1,0 +1,77 @@
+.el-row {
+    height:320px;
+    overflow: hidden;
+}
+
+.avatar-uploader .avatar {
+    width: 178px;
+    height: 130px;
+    display: block;
+}
+
+.avatar {
+    width: 178px;
+    height: 130px;
+    display: block;
+}
+
+.avatar-uploader .el-upload {
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar-uploader .avatar-uploader-icon {
+    border: 1px dashed #d9d9d9;
+    font-size: 28px;
+    color: #8c939d;
+    width: 178px;
+    height: 130px;
+    line-height: 130px;
+    text-align: center;
+}
+
+.el-input {
+    width: 40%;
+}
+
+.el-col-10 {
+    line-height: 40px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+    padding: 100px 0;
+    box-sizing: border-box;
+
+    &:last-child {
+        border: none;
+    }
+    .title {
+      text-align: right;
+      padding-right: 40px;
+      & > * {
+        height: 50px;
+        line-height: 50px;
+        text-align: left;
+        padding-left: 100px;
+      }
+    }
+    .area > * {
+        height: 50px;
+        line-height: 50px;
+    }
+    .act-banner{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+.title, .area {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,109 @@
+.border-b {
+    margin-bottom: 20px;
+}
+
+.el-input {
+    width: 55%;
+}
+
+.el-textarea {
+    width: 55%;
+}
+
+.el-upload__tip {
+    display: inline-block;
+}
+
+.upload-demo {
+    width: 480px;
+}
+
+.el-radio-group {
+    width: 480px;
+}
+
+.input-hidden {
+    display: none;
+}
+
+.catalog-list {
+    margin-bottom: 20px;
+}
+
+.input-new-tag {
+    width: 200px;
+}
+
+.chapterlist {
+    display: inline-block;
+    width: 50%;
+    & .el-input {
+        width: 100%;
+    }
+}
+
+.del-chapter {
+    display: inline-block;
+    width: 5%;
+    height: 80px;
+    line-height: 80px;
+    vertical-align: top;
+    text-align: center;
+    background: #ddd;
+    color: #03A9F4;
+    cursor: pointer;
+}
+
+.el-radio-group {
+    width: 480px;
+    padding-top: 13px;
+}
+
+.el-radio {
+    display: block;
+}
+
+.el-radio__label .el-input {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.el-radio+.el-radio {
+    margin-left: 0px;
+}
+
+.large {
+    height: 40px;
+    line-height: 40px;
+}
+
+.el-form-item {
+    & .el-row {
+        border-bottom: none;
+    }
+}
+
+.el-color-picker {
+    vertical-align: middle;
+}
+
+.el-progress {
+    width: 55%;
+}
+
+.msg_send_box {
+    & .el-radio-group {
+        padding-top: 0;
+        & .el-radio {
+            display: inline-block;
+            margin-right: 30px;
+        }
+    }
+    & .el-input {
+        margin: 5px 0;
+    }
+    & .btn-add {
+        margin: 5px 0;
+    }
+}

@@ -1,0 +1,30 @@
+.border-b {
+    margin-bottom: 20px;
+}
+
+.el-input {
+    width: 40%;
+}
+
+.el-date-editor.el-input {
+    width: 30%;
+}
+
+.time_choose .el-radio {
+    display: block;
+    & .el-input {
+        width: 200px;
+    }
+}
+
+.el-radio+.el-radio {
+    margin-left: 0px;
+}
+
+.marL30 {
+    margin-left: 30px;
+}
+
+.el-dialog .el-date-editor.el-input {
+    width: 50%;
+}

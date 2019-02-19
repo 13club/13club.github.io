@@ -1,0 +1,255 @@
+#app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.el-popover {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+/*
+    font-color start 
+*/
+
+.success {
+    color: #67C23A !important;
+}
+
+.warning {
+    color: #E6A23C !important;
+}
+
+.danger {
+    color: #F56C6C !important;
+}
+
+.info {
+    color: #909399 !important;
+}
+
+.blue {
+    color: #409EFF !important;
+}
+
+
+/*
+    font-color end 
+*/
+
+
+/*
+    font-size start 
+*/
+
+.extra-large {
+    font-size: 24px;
+}
+
+.large {
+    font-size: 18px;
+}
+
+.extra-small {
+    font-size: 12px;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.extra-small {
+    font-size: 12px;
+}
+
+
+/*
+    font-size end 
+*/
+
+
+/*
+    border end 
+*/
+
+.border-b {
+    border-bottom: 1px solid #ddd;
+}
+
+.border-t {
+    border-top: 1px solid #ddd;
+}
+
+.border-l {
+    border-left: 1px solid #ddd;
+}
+
+.border-r {
+    border-right: 1px solid #ddd;
+}
+
+.border-normal {
+    border: 1px solid #ddd;
+}
+
+
+/*
+    border end 
+*/
+
+
+/*
+    align start
+*/
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+
+/*
+    align end
+*/
+
+
+/*
+    bg-color start
+*/
+
+.bg-lightBlue {
+    background: #E6F3FC
+}
+
+
+/*
+    bg-color end
+*/
+
+
+/*
+    float start
+*/
+
+.fr {
+    float: right;
+}
+
+
+/*
+    float end
+*/
+
+
+/*
+    flex start
+*/
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+.el-menu--collapse .el-menu-item span, .el-menu--collapse .el-submenu>.el-submenu__title span {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+    display: inline-block;
+}
+.el-aside {
+    width: 190px !important;
+}
+.el-table--enable-row-hover .el-table__body tr:hover>td {
+    background: #ecf5ff !important;
+}
+.el-aside a {
+    font-size: 14px;
+    color: #303133;
+}
+.el-menu-item.is-active i{
+    color: #909399 !important;
+}
+.router-link-active .el-menu-item {
+    color: #409EFF !important;
+}
+.router-link-active .el-menu-item.is-active i {
+    color: #409EFF !important;
+}
+.router-link-active .el-menu-item i {
+    color: #409EFF !important;
+}
+.el-menu-item {
+    color: #303133 !important;
+}
+a:hover {
+    outline: 0;
+    i, span, .el-menu-item.is-active i {
+        color: #409EFF !important;
+    }
+    
+}
+.el-menu-item:focus {
+    background-color: transparent !important;
+}
+.el-input--middle {
+    width: 300px !important;
+}
+/*
+    flex end
+*/
+
+.quill-editor {
+    /*工具栏内用*/
+    .ql-font {
+      span[data-value="Arial"]::before {
+        content: "Arial" !important;
+        font-family: "Arial";
+      }
+      span[data-value="宋体"]::before {
+        content: "宋体" !important;
+        font-family: "宋体";
+      }
+      span[data-value="黑体"]::before {
+        content: "黑体" !important;
+        font-family: "黑体";
+      }
+      span[data-value="微软雅黑"]::before {
+        content: "微软雅黑" !important;
+        font-family: "微软雅黑";
+      }
+    }
+   /*编辑器内容用*/
+    .ql-font-Arial {
+      font-family: "Arial";
+    }
+    .ql-font-宋体 {
+      font-family: "宋体";
+    }
+    .ql-font-黑体 {
+      font-family: "黑体";
+    }
+    .ql-font-微软雅黑 {
+      font-family: "微软雅黑";
+    }
+  }
+  .ql-toolbar.ql-snow + .ql-container.ql-snow {
+    min-height: 350px;
+}
+.quill-editor {
+    width: 375px;
+}

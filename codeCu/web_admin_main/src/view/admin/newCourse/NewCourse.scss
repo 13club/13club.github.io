@@ -1,0 +1,56 @@
+.border-b {
+    margin-bottom: 20px;
+}
+
+.el-input {
+    width: 55%;
+}
+
+.el-textarea {
+    width: 55%;
+}
+
+.el-upload__tip {
+    display: inline-block;
+}
+
+.upload-demo {
+    width: 480px;
+}
+.course-detail-upload {
+    display: none;
+}
+
+.el-radio-group {
+    width: 480px;
+}
+
+.input-hidden {
+    display: none;
+}
+
+.catalog-list {
+    margin-bottom: 20px;
+}
+
+.input-new-tag {
+    width: 200px;
+}
+
+.chapterlist {
+    display: inline-block;
+    width: 50%;
+    & .el-input {
+        width: 100%;
+    }
+}
+.operation {
+    display: inline-block;
+}
+.del-chapter {
+    vertical-align: top;
+    text-align: center;
+    background: #ddd;
+    color: #03A9F4;
+    cursor: pointer;
+}
