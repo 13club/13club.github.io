@@ -1,0 +1,66 @@
+
+
+
+1.dataurl.js
+
+const state = {
+    login:          'user/login' ,                //登录
+    upload:         'upload/uploadFile',          //上传文件    
+    findall:        'course/findall',             //获取课程列表
+}
+export { state }
+
+
+
+2.api-admin.js
+
+import { Loading, Message } from 'element-ui'
+import url from '../store/modules/dataUrl'
+import axios from "axios"
+import { callback } from './common'
+
+const all = url.state
+
+/**
+ * @description 获取课程列表
+ * @param {Object} params
+ * @param {Function} cb
+ * @return {Promise}
+ */
+const getCourseList = (params: any, cb: Function): Promise<any> => {
+    let loadingInstance = Loading.service({ text: '正在加载' })
+    return axios.get(all.findall, { params: params }).then(response => {
+        callback(response, cb)
+        loadingInstance.close()
+    }, response => {
+        console.log('errorCallback: ', response)
+        loadingInstance.close()
+    })
+}
+
+export const AdminInt = {
+    upload,
+    getCourseList,
+    getCategory
+}
+
+
+
+3.页面
+    /**
+     * @description 获取课程列表
+     * @return {void}
+     */
+    private getList = () => {
+        AdminInt.getCourseList({
+            q: this.pageData.courseName,
+            status: this.pageData.status,
+            page: this.pageData.currentPage
+        },
+        res => {
+            this.pageData.courseList = res.data.list
+            this.pageData.totalNum = res.data.totalNum
+            this.pageData.page = res.data.page
+            this.pageData.pageSize = res.data.pageSize
+        })
+    }
