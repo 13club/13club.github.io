@@ -1,4 +1,4 @@
-utils>http.js
+1.utils>http.js
 
 import axios from 'axios'
 // 基础配置
@@ -13,7 +13,6 @@ var instance = axios.create({
     channel: 0
   }
 })
-
 
 // 用户以后访问后端需要认证的 API 时都要传输 Token，而 axios 可以通过创建 request interceptor 自动帮你添加 Token 到请求头 Authorization 中：
 instance.interceptors.request.use(function (config) {
@@ -78,7 +77,7 @@ instance.interceptors.response.use(function (response) {
 export default instance
 
 
-api>admin.js
+2.api>admin.js
 
 import axios from "./../utils/http"
 import { callback } from './common'
@@ -148,7 +147,7 @@ export const AdminInt = {
 
 
 
-api>dataUrl.js
+3.api>dataUrl.js
 
 // initial state
 const state = {
