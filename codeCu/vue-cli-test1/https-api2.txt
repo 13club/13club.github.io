@@ -14,6 +14,7 @@ var instance = axios.create({
   }
 })
 
+
 // 用户以后访问后端需要认证的 API 时都要传输 Token，而 axios 可以通过创建 request interceptor 自动帮你添加 Token 到请求头 Authorization 中：
 instance.interceptors.request.use(function (config) {
   //在请求发送之前做某事
