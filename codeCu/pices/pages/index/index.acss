@@ -1,0 +1,146 @@
+/**index.wxss**/
+
+page {
+    height: 100%;
+}
+
+.authorization {
+  position:fixed;
+  height:100%;
+  width:100%;
+  top:0;
+  left:0;
+  background:#4D4D4D;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  z-index: 100;
+  color: #000;
+  font-size: 25rpx;
+}
+.authorization .box {
+  text-align: center;
+  padding: 50rpx;
+  padding-top: 65rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+}
+.authorization button {
+  margin-top: 50rpx;
+  margin-bottom: -20rpx;
+  display: inline-block;
+  border: none;
+  color: #269f42;
+  font-size: 30rpx;
+}
+.container {
+    z-index: 9;
+    box-sizing: border-box;
+    height: calc(100vh - 50px);
+    /* padding-top:82px; */
+}
+.swiper-box {
+    box-sizing: border-box;
+    padding:0 50rpx;
+    margin:10px 0;
+}
+
+/* 返回顶部按钮 start*/
+
+.backTop-box {
+    position: fixed;
+    bottom: 18rpx;
+    right: -90rpx;
+    width: 80rpx;
+    height: 80rpx;
+    z-index: 999;
+    border-radius: 50%;
+    background: url("http://fengsheng-image.oss-cn-shenzhen.aliyuncs.com/sys/top.png") no-repeat center center;
+    background-size: 100%;
+}
+
+.backTop-box.show {
+    animation: backTopShow 0.5s forwards;
+}
+
+@keyframes backTopShow {
+    0% {
+        right: -90rpx;
+    }
+    100% {
+        right: 25rpx;
+    }
+}
+
+
+/* 返回顶部按钮 end*/
+
+
+/*
+  swiper start
+*/
+.slide-swiper {
+    height: 175x;
+    box-shadow:0 3px 5px -1px rgba(0,0,0,.2),0 5px 8px 0 rgba(0,0,0,.14),0 1px 14px 0 rgba(0,0,0,.12)!important;
+    border-radius:10px;
+}
+.slide-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+
+/* 
+.i-tabs {
+   position:fixed;
+   width:100vw;
+   top:40px;
+} */
+
+/*
+  swiper end
+*/
+
+.search-box {
+    padding:0 16px;
+    /* position:fixed;
+    width:100vw;
+    top:0; */
+
+}
+.search {
+    background:hsla(0,0%,90%,.4);
+    border-radius:10px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    padding-left:13px;
+    font-size:14px;
+    color: #ccc;
+}
+.search-placeholder {
+   
+    display: inline-block;
+}
+
+.remind {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 28rpx;
+}
+.remind .title {
+    font-size: 28rpx;
+    color: #86603e;
+}
+.remind image {
+    width: 32rpx;
+    height: 32rpx;
+    vertical-align:middle;
+}

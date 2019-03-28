@@ -1,0 +1,44 @@
+<scroll-view class="container" scroll-y  bindscrolltolower="lower" scroll-with-animation >
+  <view class="search-box">
+    <view class="search" bindtap="goSearch">
+      <icon type="search" size="15"/>
+      好课程都在这里
+    </view>
+  </view>
+
+  <view class="swiper-box" >
+    <swiper indicator-dots autoplay circular class="slide-swiper" indicator-active-color="#3FB67F">
+      <block a:for="{{banners}}" key="url">
+        <swiper-item bindtap="tapBanner" data-cid="{{item.cid}}" class="slide-swiper">
+          <image src="{{item.img}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="remind">
+      <view class="title"><image src="/static/img/remind.png" /> 课程永久有效</view>
+      <view class="title"><image src="/static/img/remind.png" /> 精选优质课程</view>
+    </view>
+  </view>
+
+  <view class="split" />
+
+  <view class="course-box" bindtouchstart="touchstart" bindtouchend="touchend">
+    <view a:for="{{courses}}" key="{{index}}" class="course-list" bindtap="goCourseInfo" data-cid="{{item.course.cid}}">
+      <view class="course-info">
+        <view class="img">
+          <image src="{{item.tutor.headImgUrl}}"  />
+        </view>
+        <view class="main">
+          <view class="font-sm ellipsis one bold color-g3 course-title">{{item.course.title}}</view>
+          <view class="color-g6 font-extra-sm ellipsis two course-sub-title">{{item.course.slogo}}</view>
+          <view class="font-extra-sm bottomBox">
+            <text class="mgr76 color-g3">{{item.course.orderNum}}人在学</text>
+            <text class="color-r" wx-if="{{item.course.price != 0}}">￥{{item.course.price/100}}</text>
+            <text class="themeColor" wx-if="{{item.course.price == 0}}">免费</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</scroll-view>

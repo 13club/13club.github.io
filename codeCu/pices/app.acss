@@ -1,0 +1,202 @@
+page {
+  /* flex: 1;
+  display: flex;
+  background: #f7f7f7; */
+
+
+  -webkit-user-select:none;
+user-select:none;
+width:100%;
+overflow-x:hidden;
+
+}
+
+
+/**app.wxss**/
+
+
+
+image {
+    width: 100%;
+}
+
+.color-g6 {
+    color: #999;
+}
+
+.color-g3 {
+    color: #333;
+}
+
+.color-r {
+    color: #FF0000;
+}
+
+.color-y {
+    color: #fff2bf;
+}
+
+.fr {
+    float: right;
+}
+
+.font-ee-sm {
+    font-size: 20rpx;
+}
+
+.font-extra-sm {
+    font-size: 24rpx;
+}
+
+.font-sm {
+    font-size: 28rpx;
+}
+
+.font-md {
+    font-size: 32rpx;
+}
+
+.font-lg {
+    font-size: 36rpx;
+}
+
+.font-extra-lg {
+    font-size: 40rpx;
+}
+
+.ver-center {
+    line-height: 100%;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.themeColor {
+    color: #00aa66;
+}
+
+.themeColor-bg {
+    background-color: #00aa66;
+}
+
+.gColor-bg {
+    background-color: #d2d2d2;
+}
+
+.border1 {
+    border-bottom: 1px solid #ddd;
+}
+
+.mgr30 {
+    margin-right: 30rpx;
+}
+
+.mgr76 {
+    margin-right: 76rpx;
+}
+
+.mgr10 {
+    margin-right: 10rpx;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ellipsis2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.ellipsis3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+/*统一内边距*/
+
+.theme-padding {
+    padding: 30rpx;
+    white-space: nowrap;
+    min-height: 40rpx;
+}
+
+
+/* 分割线*/
+
+
+.split {
+    height: 8px;
+    background: hsla(0,0%,90%,.4);
+    width: 100%;
+}
+
+
+/*
+  课程列表 start
+*/
+
+
+.course-box .course-list {
+    padding: 30rpx 0 0 30rpx;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.course-box .course-list .img {
+    width: 120rpx;
+    height: 120rpx;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30rpx;
+}
+
+.course-box .course-list .img image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10rpx;
+}
+
+.course-box .course-list .course-info {
+    display: inline-block;
+    width: 690rpx;
+    height: 120rpx;
+    padding: 0 30rpx 30rpx 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.course-box .course-list .course-info .main {
+    display: inline-block;
+    width: 480rpx;
+    height: 100%;
+}
+.course-title {
+    height: 40rpx;
+}
+.course-sub-title {
+    height: 34rpx;
+}
+
+.course-box .course-list .course-info .two {
+    width: 460rpx;
+    margin-top: 8rpx;
+}
+
+.course-box .course-list .course-info .bottomBox {
+    margin-top: 14rpx;
+}
+
+
+/*
+  课程列表 end
+*/

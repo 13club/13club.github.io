@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "package/pages/list/index"
+  ],
+  "window": {
+    "defaultTitle": "My App"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon":"static/img/tab-person.png",
+        "activeIcon":"static/img/tab-person-active.png"
+      },
+      {
+        "pagePath": "package/pages/list/index",
+        "name": "日志",
+        "icon":"static/img/tab-course.png",
+        "activeIcon":"static/img/tab-course-active.png"
+      }
+    ]
+  }
+}
