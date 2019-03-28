@@ -1,0 +1,51 @@
+<scroll-view class="container" scroll-y  bindscrolltolower="lower" scroll-with-animation wx:if="{{ init }}">
+  <view class="search-box">
+    <view class="search" bindtap="goSearch">
+      <icon type="search" size="15"/>
+      好课程都在这里
+    </view>
+  </view>
+  <i-tabs current="{{ selectTabId }}" bindchange="tabChange" color="#3FB67F" class="i-tabs">
+    <i-tab key="{{ index }}" title="{{ item.name }}" wx:for="{{ groups }}" wx:key="{{ index }}"></i-tab>
+  </i-tabs>
+  <view class="swiper-box" wx:if="{{selectTabId==0}}">
+    <swiper indicator-dots autoplay circular class="slide-swiper" indicator-active-color="#3FB67F">
+      <block wx:for="{{banners}}" wx:key="url">
+        <swiper-item bindtap="tapBanner" data-cid="{{item.cid}}">
+          <image src="{{item.img}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="remind">
+      <view class="title"><image src="/static/img/remind.png" /> 课程永久有效</view>
+      <view class="title"><image src="/static/img/remind.png" /> 精选优质课程</view>
+    </view>
+  </view>
+
+  <view class="split" />
+
+  <view class="course-box" bindtouchstart="touchstart" bindtouchend="touchend">
+    <view wx:for="{{courses}}" wx:key="{{index}}" class="course-list" bindtap="goCourseInfo" data-cid="{{item.course.cid}}">
+      <view class="course-info">
+        <view class="img">
+          <image src="{{item.tutor.headImgUrl}}"  />
+        </view>
+        <view class="main">
+          <view class="font-sm ellipsis one bold color-g3 course-title">{{item.course.title}}</view>
+          <view class="color-g6 font-extra-sm ellipsis two course-sub-title">{{item.course.slogo}}</view>
+          <view class="font-extra-sm bottomBox">
+            <text class="mgr76 color-g3">{{item.course.orderNum}}人在学</text>
+            <text class="color-r" wx-if="{{item.course.price != 0}}">￥{{item.course.price/100}}</text>
+            <text class="themeColor" wx-if="{{item.course.price == 0}}">免费</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</scroll-view>
+<i-tab-bar current="course" bindchange="tabBarChange" fixed wx:if="{{ init }}">
+    <i-tab-bar-item key="course" image="../../static/img/tab-course.png" selected-image="../../static/img/tab-course-active.png" title="课程"></i-tab-bar-item>
+    <i-tab-bar-item key="learn" image="../../static/img/tab-my-learn.png" selected-image="../../static/img/tab-my-learn-active.png" title="我的学习"></i-tab-bar-item>
+    <i-tab-bar-item key="person" image="../../static/img/tab-person.png" selected-image="../../static/img/tab-person-active.png" title="个人中心"></i-tab-bar-item>
+</i-tab-bar>

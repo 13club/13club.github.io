@@ -1,0 +1,29 @@
+{
+    "pages": [
+        "pages/index/index"
+    ],
+    "subPackages": [
+        {
+            "root": "package",
+            "pages": [
+                "pages/myCourse/myCourse",
+                "pages/personalCenter/personalCenter",
+                "pages/info/info",
+                "pages/search/search",
+                "pages/couponList/couponList",
+                "pages/auth/auth"
+            ]
+        }
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "丰盛微课",
+        "navigationBarTextStyle": "black"
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "downloadFile": 10000
+    }
+
+}

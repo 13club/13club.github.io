@@ -1,0 +1,98 @@
+<!--index.wxml-->
+
+<scroll-view style="height: calc(100vh - 50px)" scroll-y scroll-with-animation>
+
+
+    <view class="tabs">
+        <i-tabs current="{{ selectTabId }}" bindchange="tabChange" color="#3FB67F">
+            <i-tab key="{{ index }}" title="{{ item.name }}" wx:for="{{ tabs }}" wx:key="{{ index }}"></i-tab>
+        </i-tabs>
+    </view>
+
+    <view class="split" />
+
+    <view class="coupon-list-box" bindtouchstart="touchstart" bindtouchend="touchend">
+            <view class="empty-info color-g6" wx-if="{{couponList.length === 0}}">
+                <view>
+                    暂无优惠券
+                </view>
+                <view>
+                    请关注公众号 “丰盛微课堂”
+                </view>
+                <view>
+                    参与互动，获取优惠券
+                </view>
+            </view>
+            <view class="coupon-list-box empty" wx-if="{{couponList.length === 0}}">
+                    <view class="coupon-list">
+                        <view class="main-left">
+                            <view class="main-left-text">
+                                <text class="font-ee-sm">￥</text>
+                                <text class="price">0.00</text>
+                            </view>
+                            <view class="main-left-btn">
+                                <text class="btn-use">去使用</text>
+                            </view>
+                        </view>
+                        <view class="main-right">
+                            <view class="head font-lg color-g6">xxx优惠券</view>
+                            <view class="end-time font-extra-sm  color-g6">
+                                <text class="main-right-end-time-text1">满减劵，满xxx可用</text>
+                                <text class="main-right-end-time-text2">有效期至:xxxx-xx-xx</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="coupon-desc {{collapsing ? 'desc-collapsing' : 'desc-expanding'}}">
+                        <view class="toggle" bindtap="openCouponDesc">{{collapsing ? '展开' : '收起'}}</view>
+                        <view>1. 平台券，除部分不参加活动课程外，全场可用；</view>
+                        <view>2. 拼团、秒杀、兑换等活动不可用券；</view>
+                    </view>
+            </view>
+            <view class="coupon-list-box {{active == 0 ? '': 'empty'}}" wx-if="{{couponList.length > 0}}">
+                <view wx:for="{{couponList}}" wx:key="coupon">
+                    <view class="coupon-list">
+                        <image class="unsupport" src="{{imageUrl}}" mode="aspectFill" wx-if="{{active == 2}}"></image>
+                        <image class="unsupport" src="{{imageUrl2}}" mode="aspectFill" wx-if="{{active == 1}}"></image>
+
+                        <view class="main-left .active0" wx-if="{{active != 0}}">
+                            <text class="font-ee-sm">￥</text>
+                            <text class="price">{{item.fee}}</text>
+                        </view>
+                        <view class="main-left" wx-if="{{active == 0}}">
+                                <view class="main-left-text">
+                                    <text class="font-ee-sm">￥</text>
+                                    <text class="price">{{item.fee}}</text>
+                                </view>
+                                <view class="main-left-btn">
+                                    <text class="btn-use" wx-if="{{active == 0}}" bindtap="goUserCoupon">去使用</text>
+                                </view>
+                        </view>
+                        <view class="main-right">
+                            <view class="head font-lg color-g6">{{item.title}}</view>
+                            <view class="end-time font-extra-sm  color-g6">
+                                <text class="main-right-end-time-text1">满减券，满{{item.use_fee/100}}元可用</text>
+                                <text class="main-right-end-time-text2">有效期至:{{item.endTime}}</text>
+                            </view>
+                        </view>
+                    </view>
+                    <view class="coupon-desc {{collapsingObj[index] ? 'desc-collapsing' : 'desc-expanding'}}">
+                        <view class="toggle" bindtap="openCouponDescList" data-coupon-Status = "{{collapsingObj[index]}}" data-index="{{index}}">{{collapsingObj[index] ? '展开' : '收起'}}</view>
+
+                        <view wx-if="{{item.scopes.length>0}}">1. 指定券，指定课程购买可用；</view>
+                        <view wx:else>1. 平台券，除部分不参加活动课程外，全场可用；</view>
+                        <view>2. 拼团、秒杀、兑换等活动不可用券；</view>
+                        <view wx-if="{{item.scopes.length>0}}">3. 指定课程：<text wx:for="{{item.scopes}}" wx:key="{{index}}" style="display: inline-block;">[ {{item.title}} ]、</text> 
+                        </view>
+                    </view>
+                </view>
+            </view>
+    </view>
+
+</scroll-view>
+
+<view class="more-box" bindtap="goIndex">
+    <view class="more-button">
+        更多好课
+    </view>
+</view>
+<!-- 更多课程 end -->
