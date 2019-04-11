@@ -1,0 +1,815 @@
+/********** 展示页面样式 ***********/
+.rrx-pg-answer-index{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    font-family:"WenQuanYi Micro Hei", STHeiti, SimHei, "黑体";
+}
+.rrx-pg-answer-index-edit{
+    width: 100%;
+    height:100%;
+    text-align: center;
+    padding: 300px 100px;
+    font-size: 50px;
+    color: #737373;
+}
+.rrx-pg-answer-index-pass{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 600px;
+    font-size: 30px;
+}
+
+.rrx-pg-answer-index .header-progress{
+    position: absolute;
+    font-size: 27px;
+    /* padding: 10px 0; */
+    left: 43px;
+    top: 58px;
+    z-index: 10000;
+    width: 250px;
+    text-align: left;
+    height: 70px;
+    line-height: 70px;
+}
+.rrx-pg-answer-index .header-downTime{
+    position: absolute;
+    font-size: 27px;
+    /* padding: 10px 0; */
+    left: 270px;
+    z-index: 10000;
+    width: 130px;
+    top: 58px;
+    /*width: 250px;*/
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    display: none;
+}
+
+.rrx-pg-answer-index .plugin-answer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform  1s;
+
+    /*-webkit-transform: translate3d(0, 0, 0);*/
+    /*-moz-transform: translate3d(0, 0, 0);*/
+    /*-ms-transform: translate3d(0, 0, 0);*/
+    /*transform: translate3d(0, 0, 0);*/
+    opacity: 0;
+    display: none;
+}
+.rrx-pg-answer-index .plugin-answer .answer-header{
+    height: 470px;
+    padding: 128px 43px 43px 43px;
+}
+.rrx-pg-answer-index .plugin-answer .question-music{
+    height: 255px;
+    margin: auto;
+    line-height: 247px;
+}
+.rrx-pg-answer-index .plugin-answer .question-image{
+    height: 255px;
+    line-height: 247px;
+    border: none;
+    width: 552px;
+    margin-bottom: 10px;
+}
+.rrx-pg-answer-index .plugin-answer .question-image img{
+    max-height: 255px;
+    max-width: 552px;
+}
+
+.rrx-pg-answer-index .question-image-right{
+    color: #29BF29;
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.rrx-pg-answer-index .question-title{
+    font-size: 30px;
+    text-align: left;
+    height: 86px;
+    line-height: 86px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+.rrx-pg-answer-index .question-title span{
+    line-height: 44px;
+    display: inline-block;
+}
+
+.rrx-pg-answer-index .answer-image-list{
+    position: relative;
+    text-align: center;
+}
+.rrx-pg-answer-index .answer-image-list .imgBox{
+    margin-top: 28px;
+    width: 204px;
+    height: 204px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.rrx-pg-answer-index .answer-image-list .answer-img-5,.rrx-pg-answer-index .answer-image-list .answer-img-6{
+    width: 172px;
+    height: 172px;
+    margin-top: 18px;
+}
+.rrx-pg-answer-index .answer-image-list .answer-img-5 .img-question,.rrx-pg-answer-index .answer-image-list .answer-img-6  .img-question{
+    width: 172px !important;
+    height: 172px !important;
+}
+
+.rrx-pg-answer-index .answer-image-list .imgBox .img-question{
+    width: 204px;
+    height: 204px;
+}
+.rrx-pg-answer-index .answer-image-list .imgBox .border-question{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.rrx-pg-answer-index .answer-image-list .imgBox .img-question-box{
+    /*height: 176px;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.rrx-pg-answer-index .answer-image-list .img-4-0,.rrx-pg-answer-index .answer-image-list .img-4-2{
+    margin-right: 28px;
+}
+.rrx-pg-answer-index .answer-image-list .img-6-0,.rrx-pg-answer-index .answer-image-list .img-6-1,
+.rrx-pg-answer-index .answer-image-list .img-6-3,.rrx-pg-answer-index .answer-image-list .img-6-4{
+    margin-right: 18px;
+}
+
+.rrx-pg-answer-index .answer-text-list{
+    text-align: left;
+    margin: 33px 43px 0 43px;
+}
+.rrx-pg-answer-index .answer-text-list .img-right,.rrx-pg-answer-index .answer-text-list .img-error{
+    display: none;
+    /*display: inline-block;*/
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.rrx-pg-answer-index .answer-text-list .item-text{
+    margin-bottom: 18px;
+    background-size: 100% 100%;
+    font-size: 28px;
+
+   /*
+    height: 70px;
+    line-height: 70px;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;*/
+
+    padding: 10px 20px;
+}
+.rrx-pg-answer-index .answer-text-list .item-text .span-value{
+   /*padding-left: 26px;*/
+    /*overflow: hidden;*/
+    text-overflow: ellipsis;
+    width: 100%;
+    display: inline-block;
+}
+.rrx-pg-answer-index .answer-text-list .item-text .span-mark{
+    /*margin-right:10px;*/
+    display: inline-block;
+    width: 40px;
+}
+
+
+/*********basicPage-dialog*************/
+.pluginAnswer-basic-dialog {
+    display: none;
+    width: 700px;
+    height: 1100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    position: absolute;
+    left: -30px;
+    top: 0;
+}
+.pluginAnswer-basic-dialog li {
+    list-style-type: none;
+}
+.pluginAnswer-basic-dialog .content-close {
+    position: relative;
+    left: 85%;
+    top: 2%;
+    width: 70px;
+}
+.pluginAnswer-basic-dialog .dialog-content {
+    width: 600px;
+    height: 825px;
+    position: relative;
+    background-color: #fff;
+    top: 0px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-head {
+    border-radius: 20px 20px 0px 0px;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    border-bottom-color: #f2f2f2;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    /*li:nth-child(2){
+
+                  border-left-color: #eee;
+                  border-left-style: solid;
+              }
+              li:nth-child(3){
+
+                  border-left-color: #eee;
+                  border-left-style: solid;
+              }
+              li:nth-child(4){
+
+                  border-left-color: #eee;
+                  border-left-style: solid;
+              }*/
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-head ul {
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-head li {
+    list-style-type: none;
+    font-size: 28px;
+    text-align: center;
+    line-height: 78px;
+    display: inline;
+    padding: 30px 23px;
+    /*display: none;*/
+    padding-left: 23px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-head span {
+    display: none;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: #949494;
+    margin-left: -6px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-head li:nth-child(1) {
+    border-top-left-radius: 15px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-head li:nth-child(5) {
+    /*border-left-color: #eee;
+                  border-left-style: solid;*/
+    /*padding-left: 11px;*/
+    border-top-left-radius: 15px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box {
+    width: 600px;
+    height: 680px;
+    position: absolute;
+    top: 90px;
+    margin: 0 auto;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule {
+    width: 500px;
+    margin-left: 50px;
+    font-size: 28px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .item {
+    width: 40px;
+    background-color: #1ca7ff;
+    border-radius: 100px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-one div {
+    margin-right: 15px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-one-box {
+    padding-left: 60px;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #9a9999;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-line {
+    margin-top: 20px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-line-head div {
+    margin-right: 15px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-line-box {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #9a9999;
+    margin-left: 4px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three {
+    margin-top: 20px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-head div {
+    margin-right: 15px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box {
+    padding-left: 45px;
+    padding-top: 10px;
+    font-size: 24px;
+    color: #9a9999;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box .rule-myPrizeBtn {
+    margin-left: 50px;
+    color: #1D93FF;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box .head {
+    text-align: center;
+    font-size: 28px;
+    color: #1ca7ff;
+    font-weight: bold;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul {
+    padding: 0;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul li {
+    border-top: 1px solid #ccc;
+    padding: 10px 0px;
+    /* 排行榜奖品 */
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul li img {
+    width: 60px;
+    height: 60px;
+    vertical-align: sub;
+    margin-left: 30px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul li .grab-content-text {
+    margin-left: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul li .grab-content-text p {
+    padding: 0;
+    margin: 0;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul li .grab-content-text span {
+    font-size: 22px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul li .noNnm {
+    display: inline-block;
+    width: 160px;
+    vertical-align: super;
+    margin-left: 30px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .rule .rule-three-box ul li .prizename {
+    display: inline-block;
+    width: 190px;
+    vertical-align: super;
+    text-align: center;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops {
+    width: 550px;
+    margin: 0 auto;
+    /*font-size: 28px;*/
+    margin-left: 50px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info {
+    width: 100%;
+    height: 120px;
+    border-radius: 100px;
+    vertical-align: super;
+    color: #7d7d7d;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #1ca7ff;
+    border-radius: 100px;
+    vertical-align: sub;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info .tops-content-text {
+    font-size: 28px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info .tops-content-text .tops-name {
+    color: #383838;
+    font-weight: bold;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info .tops-content-text .tops-score {
+    font-size: 22px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info .tops-content-text .tops-score span {
+    margin-left: 5px;
+    color: #1ca7ff;
+    font-size: 24px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info .tops-content-text .tops-top {
+    font-size: 22px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info .tops-content-text .tops-top span {
+    margin-left: 5px;
+    color: #1ca7ff;
+    font-size: 24px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-info .content-box-action {
+    position: absolute;
+    leffont-size: 20px;
+    top: 100px;
+    background: #1ca7ff;
+    padding: 5px 10px;
+    color: #fff;
+    left: 60%;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 5px 20px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .content-box-color {
+    width: 590px;
+    height: 25px;
+    background: #f2f2f2;
+    position: relative;
+    top: 40px;
+    left: -45px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content {
+    margin-top: 40px;
+    margin-left: -50px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul {
+    padding: 0;
+    margin: 0;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li {
+    padding: 15px 0px;
+    color: #666666;
+    font-size: 26px;
+    border-bottom: 1px solid #eeeeee;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li .tops-content-text {
+    margin-left: 50px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li .topsNum {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: super;
+    line-height: 60px;
+    margin-left: 5px;
+    font-size: 36px;
+    background-repeat: no-repeat;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li img {
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+    border-radius: 100px;
+    vertical-align: sub;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li .tops-content-name {
+    display: inline-block;
+    vertical-align: super;
+    font-size: 24px;
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #6d6f72;
+    margin-left: 10px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li .tops-content-sc {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 10px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li:nth-child(1) {
+    color: #e3b417;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li:nth-child(2) {
+    color: #b2b7c2;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .tops .tops-content ul li:nth-child(3) {
+    color: #fe6821;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends {
+    width: 550px;
+    margin: 0 auto;
+    font-size: 28px;
+    margin-left: 50px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info {
+    width: 100%;
+    height: 120px;
+    border-radius: 100px;
+    vertical-align: super;
+    color: #7d7d7d;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #1ca7ff;
+    border-radius: 100px;
+    vertical-align: sub;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info .tops-content-text {
+    font-size: 28px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info .tops-content-text .tops-name {
+    color: #383838;
+    font-weight: bold;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info .tops-content-text .tops-score {
+    font-size: 22px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info .tops-content-text .tops-score span {
+    margin-left: 5px;
+    color: #1ca7ff;
+    font-size: 24px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info .tops-content-text .tops-top {
+    font-size: 22px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info .tops-content-text .tops-top span {
+    margin-left: 5px;
+    color: #1ca7ff;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-info .content-box-action {
+    position: absolute;
+    leffont-size: 20px;
+    top: 100px;
+    background: #1ca7ff;
+    padding: 5px 10px;
+    color: #fff;
+    left: 60%;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 5px 20px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .content-box-color {
+    width: 590px;
+    height: 25px;
+    background: #f2f2f2;
+    position: relative;
+    top: 40px;
+    left: -45px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content {
+    margin-top: 40px;
+    margin-left: -50px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul {
+    padding: 0;
+    margin: 0;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li {
+    padding: 15px 0px;
+    color: #666666;
+    font-size: 26px;
+    border-bottom: 1px solid #eeeeee;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li .tops-content-text {
+    margin-left: 50px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li .topsNum {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: super;
+    line-height: 60px;
+    margin-left: 5px;
+    font-size: 36px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li img {
+    width: 60px;
+    height: 60px;
+    margin-left: 80px;
+    border-radius: 100px;
+    vertical-align: sub;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li .tops-content-name {
+    display: inline-block;
+    vertical-align: super;
+    font-size: 24px;
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #6d6f72;
+    margin-left: 10px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li .tops-content-sc {
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 10px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li:nth-child(1) {
+    color: #e3b417;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li:nth-child(2) {
+    color: #b2b7c2;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .friends .tops-content ul li:nth-child(3) {
+    color: #fe6821;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .focus {
+    width: 600px;
+    height: 600px;
+    font-size: 30px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .focus .focus-info {
+    text-align: center;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-box .focus .focus-info img {
+    width: 400px;
+}
+.pluginAnswer-basic-dialog .dialog-content .dialog-content-foot {
+    width: 600px;
+    height: 60px;
+    background-color: #1ca7ff;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #fff;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+}
+/* end basicPage*/
+
+/* start endPage */
+
+.pluginAnswer-end-dialog{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+
+    -webkit-transform: translate3d(640px, 0, 0);
+    transform: translate3d(640px, 0, 0);
+    transition: transform 0.6s;
+    -moz-transition: transform 0.6s; /* Firefox 4 */
+    -webkit-transition: transform 0.6s; /* Safari 和 Chrome */
+    -o-transition: transform 0.6s; /* Opera */
+}
+.pluginAnswer-end-dialog .end-content{
+    width: 450px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    font-size: 28px;
+    margin-top: 240px;
+}
+.pluginAnswer-end-dialog .end-content .content-result{
+    height: 380px;
+    text-align: center;
+    /*line-height: 60px;*/
+    /*padding-top: 40px;*/
+    border-radius: 20px;
+    background-color: #fff;
+    border: 3px solid #9900ff;
+    color:#9900ff;
+    overflow: hidden;
+}
+.pluginAnswer-end-dialog .end-content .content-result .ret-header{
+    height: 70px;
+    background-color: #9900ff;
+    color: #fff;
+    line-height: 65px;
+    font-size: 36px;
+    font-weight: bold;
+    box-shadow: 0px 8px 1px #c266ff;
+    border-bottom-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.pluginAnswer-end-dialog .end-content .content-result .ret-score{
+    margin-top: 40px;
+}
+.pluginAnswer-end-dialog .end-content .content-result .s-title{
+    display: inline-block;
+    width: 210px;
+    /*margin-right: 10px;*/
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+}
+.pluginAnswer-end-dialog .end-content .content-result .ret-score .a-score{
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+.pluginAnswer-end-dialog .end-content .content-result .ret-top .a-top{
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+.pluginAnswer-end-dialog .end-content .content-result .ret-top{
+    margin-top: 20px;
+}
+.pluginAnswer-end-dialog .end-content .content-result .btn-lottery,
+.pluginAnswer-end-dialog .end-content .content-result .btn-goto{
+    color: #fff;
+    margin: 40px auto;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 40px;
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.pluginAnswer-end-dialog .end-content .content-result span{
+    margin-left: 10px;
+}
+.pluginAnswer-end-dialog .end-content .content-buttonList{
+    margin-top: 50px;
+    text-align: center;
+}
+.pluginAnswer-end-dialog .end-content .item-button{
+    display: inline-block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 100px;
+    width: 133px;
+    /* border: 1px solid #fff; */
+    /* border-radius: 1000px; */
+    /* overflow: hidden; */
+    /* padding: 10px; */
+    text-align: center;
+    /*margin-right: 5px;*/
+    font-size: 26px;
+}
+.pluginAnswer-end-dialog .end-content .btn-share{
+    margin-right: 0;
+}
+.pluginAnswer-end-dialog .end-content .item-button .icon-btn{
+    margin-bottom: 10px;
+}
+.pluginAnswer-end-dialog .end-content .item-button .icon-btn img{
+    width: 90px;
+    height: 90px;
+}
+
+
+/* end endPage */
+。rrx-pg-answer-question-result{
+    max-height: 400px;
+}
+.rrx-pg-answer-question-result .answer-title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rrx-pg-answer-question-result .answer-content-list{
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+
+
+.answerFadeInLeft {
+    -webkit-transform: none;
+    transform: none;
+}
+.answerFadeOutLeft {
+    -webkit-transform: translate3d(640px, 0, 0);
+    transform: translate3d(640px, 0, 0);
+}
