@@ -33,11 +33,14 @@ if(actDataList.length==0){
 
 
 // $("body").empty();
-$("body>.loading_contence").hide();
+// $("body>.loading_contence").hide();
 
 
 var returnBtn = '<button class="return_Btn" onclick="returnIndexUl()"></button>';
 setTimeout(()=>{
+
+	$("body>.loading_contence").hide();
+
 	var $div='';
 	actDataList.forEach((data, index)=>{
 		$div = $div + "<div id='contentWrapId'><app></app></div><script src='./actmod/"+data.actName+"/dist/main.js'></script>";
@@ -55,6 +58,12 @@ oUl.addEventListener('click',function(ev){
     var target = ev.target;
     while(target !== oUl ){
         if(target.tagName.toLowerCase() == 'li'){
+			
+			$("body>.loading_contence").show();
+			setTimeout(()=>{
+				$("body>.loading_contence").hide();
+			},1000)
+			
             console.log('li click~');
             var index = $(target).index();
             $("body>.index_box").hide();
