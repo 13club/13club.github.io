@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>按键脚本</title>
+	<style>
+
+	</style>
+	<script type="text/javascript" src="./keyevent.util.js"></script>
+	<script type="text/javascript">
+		function init() {
+			initWindow(window);
+		};
+		function eventHandler(eventResult) {
+			switch (eventResult.code) {
+				//确定键拦截,case要与keyevent.util.js里面的case code一样
+				case "KEY_SELECT":
+					//这里写要执行的方法
+					console.log('选择')
+					bindValue('KEY_SELECT','选择')
+					break;
+				case "KEY_RIGHT"://右
+					console.log('右')
+					bindValue('KEY_RIGHT','右')
+					break;
+				case "KEY_LEFT"://左
+					console.log('左')
+					bindValue('KEY_LEFT','左')
+					break;
+				case "KEY_DOWN"://下
+					console.log('下')
+					bindValue('KEY_DOWN','下')
+					break;
+				case "KEY_UP"://上
+					console.log('上')
+					bindValue('KEY_UP','上')
+					break;
+				case "KET_PRE":	//上一页 
+					console.log('上一页')
+					bindValue('KET_PRE','上一页')
+					break;
+				case "KET_NEXT":	//下一页  
+					console.log('下一页')
+					bindValue('KET_NEXT','下一页')
+					break;
+				case "KET_BACK":	//返回键 
+					console.log('返回')
+					bindValue('KET_BACK','返回键')
+					break;
+				case "KEY_QUIT":   //退出
+					console.log('退出')
+					bindValue('KEY_QUIT','退出')
+					break;
+			}
+		}
+		function bindValue(value,text){
+			console.log(value)
+			// alert(value)
+			let id = document.getElementById('key')
+			id.innerHTML = '当前遥控操作为：' + text
+		}
+	</script>
+</head>
+
+<body onload="init()">
+	<div style="width:80%;margin:0 10%;text-align:center;">
+		<div>拿起遥控器，测试-上下左右，上一页下一页，返回键和退出键，看看是否起作用</div>
+		<div id='key'>当前遥控操作为：</div>
+	</div>
+</body>
+
+
+
+</html>
