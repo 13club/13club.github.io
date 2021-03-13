@@ -1,0 +1,1 @@
+!function(i){"use strict";function t(t){this.blockType=t,this.size=30,this.originalSize=32,this.sprite=i.ResourceManager.getResource("blocks")}t.prototype={constructor:t,draw:function(i,t,s,e,o){o=o||this.size,i.drawImage(this.sprite,((e||this.blockType)-1)*this.originalSize,0,this.originalSize,this.originalSize,t*o,s*o,o,o)}},i.Block=t}(window);
