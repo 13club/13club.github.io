@@ -2,49 +2,140 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>直播播放</title>
-    <style>
-        body{
-            margin:0;
-            padding:0;
-        }
-    </style>
-      <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+    <title>直播播放 ——可以看新闻,看电视的网页</title>
+
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div class="main">
-        <p>说明： 个人学习代码，不做任何商业用途</p>
-        <ul class="list">
-            <li><a class="button" href="./cctv1.html">CCTV1(高清)</a></li>
-            <li><a class="button" href="./cctv3.html">CCTV3(高清)</a></li>
-            <li><a class="button" href="./cctv5.html">CCTV5+(高清)</a></li>
-            <li><a class="button" href="./cctv6.html">CCTV6(高清)</a></li>
+        <div class="common-block">
+            <p class="common-title"><strong>链接</strong></p>
+            <ul class="common-list">
+                <li>
+                    <div class="block">
+                        <a class="alink aicon" 
+                            href="http://www.qq.com/"
+                            style="background-image: url(https://dgss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/qiusuo_icon/5838ed1d6a3eef9f91341d9a8af16db8.ico)" 
+                            data-title="腾讯"
+                        >腾讯</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="block">
+                        <a class="alink aicon"
+                            href="http://www.sina.com.cn/" 
+                            style="background-image: url(https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/qiusuo_icon/10597f220b047cee3e8ea50e91886d71.ico)" 
+                            data-title="新浪"
+                        >新浪</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="block">
+                        <a class="alink aicon"
+                            href="http://map.baidu.com/" 
+                            style="background-image: url(https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/bddt2018110949.png)" 
+                            data-title="百度地图"
+                        >百度地图</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="block">
+                        <a class="alink aicon" 
+                            href="https://union-click.jd.com/jdc?d=iEZf6v" 
+                            style="background-image: url(https://dgss2.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/qiusuo_icon/aa0448bf686b54f648b869155388d64e.ico)" 
+                            data-title="京东"
+                        >京东</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="block">
+                        <a class="alink aicon" 
+                            href="https://www.taobao.com"
+                            style="background-image: url(https://dgss0.bdstatic.com/5bVWsj_p_tVS5dKfpU_Y_D3/res/r/image/2020-04-09/9a95d3783ba0e6dea8bd386e2d0ad67f.png)" 
+                            data-title="淘宝网"
+                        >淘宝网</a>
+                    </div>
+                </li>
 
-            <li><a class="button" href="./hunan.html">湖南卫视</a></li>
+                <li>
+                    <div class="block">
+                        <a class="alink aicon" 
+                            href="http://www.iqiyi.com/" 
+                            style="background-image: url(https://dgss0.bdstatic.com/5bVSsj_p_tVS5dKfpU_Y_D3/data/b34fe8ac6be373fd96f301282e83c705)" 
+                            data-title="爱奇艺"
+                        >爱奇艺</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="block">
+                        <a class="alink aicon" 
+                            href="https://www.zhibo8.cc" 
+                            style="background-image: url(https://dgss0.bdstatic.com/5bVYsj_p_tVS5dKfpU_Y_D3/urlicon/80401.png)" 
+                            data-title="直播吧"
+                        >直播吧</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="block">
+                        <a class="alink aicon" 
+                        href="http://www.bilibili.com" 
+                        style="background-image: url(https://dgss1.bdstatic.com/5bVXsj_p_tVS5dKfpU_Y_D3/urlicon/0.4201.png)"
+                        data-title="bilibili"
+                        >bilibili</a>
+                    </div>
+                </li>
 
-            <li><a class="button" href="./HKcaijin.html">香港财经</a></li>
-            <li><a class="button" href="./KRgoodTv.html">韩国GoodTV</a></li>
-            <li><a class="button" href="./USA2.html">美国2</a></li>
-        </ul>
-        <ul class="adList">
-            <li>
-                <h3>喜欢就这个页面，就打赏杯咖啡杯呗！</h3>
-                <br>
-                <img style="width: 220px; height: 132px;display: inline-block;" src="./images/shouk.jpg">
-            </li>
-            <li>
-                <h3>广告：</h3>
-                <br>
-                1.欢迎关注微信公众号，内容更精彩<br><img style="width: 220px; height: 132px;display: inline-block;" src="./images/7.jpg">
-                <br>
-                <a href="http://www.sevenliao.cn/">2.前端开发技术文章</a>
-                <br>
-                <a href="http://13culb.com/actgame/index.html">3.13Culb游戏中心</a>
-                <br>
-                <br>
-            </li>
-            <li></li>
-        </ul>
+            </ul>
+        </div>
+
+        <div class="common-block">
+                <p class="common-title"><strong>直播</strong></p>
+                <div class="common-tips">高清直播，让看电视更加方便，让我们一起手机网页看电视吧</div>
+                <ul class="list">
+                    <li><a class="button" href="./cctv1.html">CCTV1(高清)</a></li>
+                    <li><a class="button" href="./cctv3.html">CCTV3(高清)</a></li>
+                    <li><a class="button" href="./cctv5.html">CCTV5+(高清)</a></li>
+                    <li><a class="button" href="./cctv6.html">CCTV6(高清)</a></li>
+                    <br>
+                    <li><a class="button" href="./hunan.html">湖南卫视</a></li>
+        
+                    <li><a class="button" href="./HKcaijin.html">香港财经</a></li>
+                    <li><a class="button" href="./KRgoodTv.html">韩国GoodTV</a></li>
+                    <li><a class="button" href="./USA2.html">美国2</a></li>
+                </ul>
+        </div>
+
+        <div class="common-block">
+            <p class="common-title"><strong>赞赏</strong></p>
+            <ul class="list">
+                <li>
+                    <h3>喜欢就这个页面，就打赏杯咖啡杯呗！</h3>
+                    <br>
+                    <img style="width: 220px; height: 220px;display: inline-block;" src="./images/pay.jpg">
+                </li>
+            </ul>
+        </div>
+
+        <div class="common-block">
+            <p class="common-title"><strong>广告</strong></p>
+            <ul class="list">
+                <li style="text-align:left;">
+                    <h3>1.搜索关注微信公众号：sevenliao，内容更精彩</h3>
+                    <img style="width: 120px; height: 120px;display: inline-block;" src="./images/7.jpg">
+                    <br>
+                    <br>
+                    <h3><a href="http://www.sevenliao.cn/">2.前端开发技术文章</a></h3>
+                    <br>
+                    <h3><a href="http://13culb.com/actgame/index.html">3.13Culb游戏中心</a></h3>
+                    <br>
+                    <h3>4.微信小程序《大头贴纸》，给自己图片美颜一下或者加个头像呗</h3>
+                    <img style="width: 120px; height: 120px;display: inline-block;" src="./images/dttz.jpg">
+                </li>
+            </ul>
+        </div>
+
+        <p style="color:#333333;font-size:12px;">说明： 个人学习代码，不做任何商业用途</p>
     </div>
     <script type="text/javascript">
 
