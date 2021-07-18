@@ -44,10 +44,18 @@ body{
     border-bottom: 4px solid #3498db;
     border-radius: 2px;
 }
+
 .common-tips{
     color: #666666;
     text-align: left;
     padding-left:1%;
+}
+
+.common-tips-moblie{
+    color: #999999;
+    text-align: left;
+    padding-left:1%;
+    display: none;
 }
 
 .common-list{
@@ -146,6 +154,11 @@ body{
         border-bottom: 4px solid #3498db;
         border-radius: 2px;
     }
+    
+    .common-tips-moblie{
+        display: block;
+    }
+
     .alink{
         font-size: 44px;
         height: 50px;
