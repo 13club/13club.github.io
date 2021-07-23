@@ -89,6 +89,18 @@ body{
     background-repeat: no-repeat;
 }
 
+.aTextBtn{
+    padding: 10px 10px;
+    color: #000000;
+    font-size: 14px;
+    display: inline-block;
+    max-width: 200px;
+    height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
 
 
 
@@ -164,6 +176,11 @@ body{
         height: 50px;
         background-size: 36px 36px;
         padding-left: 50px;
+    }
+
+    .aTextBtn{
+        font-size: 44px;
+        height: 50px;
     }
 
 
