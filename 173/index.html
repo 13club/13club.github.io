@@ -12,36 +12,41 @@
     <div class="main">
         <div class="common-block">
             <p class="common-title"><strong>高坳新村 173栋菜鸟驿站</strong></p>
+
+            <div style="text-align: left;margin-top: 20px;">
+                <b id="newTitleId">最新信息</b> :
+                <span id="newTextId"></span>
+            </div>
             <ul class="list">
                 <li style="text-align:left;">
                     <div style="text-align: center;">
                         <img style="width: 460px; height: 460px;display: inline-block;" src="./173/和天下.jpg">
-                        <h3>和天下：估计450</h3>
+                        <h3>和天下450</h3>
                     </div>
-                    <br>
+                </li>
+                <li style="text-align:left;">
                     <div style="text-align: center;">
                         <img style="width: 460px; height: 460px;display: inline-block;" src="./173/南京.jpg">
                         <h3>煊赫门180</h3>
                     </div>
-                    <br>
+                </li>
+                <li style="text-align:left;">
                     <div style="text-align: center;">
                         <img style="width: 460px; height: 460px;display: inline-block;" src="./173/雨花石.jpg">
                         <h3>雨花石220</h3>
                     </div>
-                    <br>
+                </li>
+                <li style="text-align:left;">
                     <div style="text-align: center;">
                         <img style="width: 460px; height: 460px;display: inline-block;" src="./173/凤凰.jpg">
                         <h3>牡丹凤凰240</h3>
                     </div>
-                    <br>
+                </li>
+                <li style="text-align:left;">
                     <div style="text-align: center;">
                         <img style="width: 460px; height: 460px;display: inline-block;" src="./173/牡丹.jpg">
                         <h3>牡丹青柠味240</h3>
                     </div>
-                    
-                
-                    <br>
-         
                 </li>
             </ul>
         </div>
@@ -49,7 +54,28 @@
         <p style="color:#333333;font-size:12px;">说明： 个人参考，不做任何商业用途</p>
     </div>
     <script type="text/javascript">
+        (()=>{
+            const urlParams = new URLSearchParams(window.location.search);
+            const paramTitle = urlParams.get('title');
+            const paramValue = urlParams.get('text');
+            console.log(paramTitle)
 
+            // 获取目标 DOM 元素
+            const TitleElement = document.getElementById('newTitleId');
+            const ValueElement = document.getElementById('newTextId');
+            // 如果参数存在且目标元素存在，则插入内容
+            if (paramTitle && paramValue && TitleElement && ValueElement) {
+                // TitleElement.textContent = TitleElement; // 插入文本内容
+                // targetElement.innerHTML = paramValue;
+
+                TitleElement.innerHTML = paramTitle; // 插入文本内容
+                ValueElement.innerHTML = paramValue;
+            } else {
+                // TitleElement.innerHTML = "暂无"; 
+                // ValueElement.innerHTML = "暂无";
+            }
+
+        })()
 
     </script>
 </body>
