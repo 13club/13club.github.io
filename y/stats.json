@@ -1,0 +1,4355 @@
+{
+  "entrypoints": {
+    "umi": {
+      "name": "umi",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js",
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js",
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js",
+        "umi.js"
+      ],
+      "assets": [
+        {
+          "name": "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+        },
+        {
+          "name": "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+        },
+        {
+          "name": "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+        },
+        {
+          "name": "umi.js"
+        }
+      ]
+    }
+  },
+  "chunks": [
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js",
+      "size": 8527,
+      "hash": "",
+      "files": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+      ]
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js",
+      "size": 319087,
+      "hash": "",
+      "files": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ]
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js",
+      "size": 26352,
+      "hash": "",
+      "files": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ]
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "umi.js",
+      "size": 0,
+      "hash": "",
+      "files": [
+        "umi.js"
+      ]
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js",
+      "size": 31251,
+      "hash": "",
+      "files": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js"
+      ]
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "src_pages_index_less_43d1ccec.css",
+      "size": 0,
+      "hash": "",
+      "files": [
+        "src_pages_index_less_43d1ccec.css"
+      ]
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js",
+      "size": 1009,
+      "hash": "",
+      "files": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js"
+      ]
+    },
+    {
+      "rendered": false,
+      "initial": false,
+      "entry": false,
+      "recorded": false,
+      "id": "src_layouts_index_less_77daf435.css",
+      "size": 0,
+      "hash": "",
+      "files": [
+        "src_layouts_index_less_77daf435.css"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "type": "asset",
+      "name": "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js",
+      "info": {},
+      "size": 8527,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js",
+      "info": {},
+      "size": 319087,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js",
+      "info": {},
+      "size": 26352,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "umi.js",
+      "info": {},
+      "size": 0,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "umi.js"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "sounds/spin.mp3",
+      "info": {},
+      "size": 0,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "sounds/spin.mp3"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "sounds/win.mp3",
+      "info": {},
+      "size": 0,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "sounds/win.mp3"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js",
+      "info": {},
+      "size": 31251,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "src_pages_index_less_43d1ccec.css",
+      "info": {},
+      "size": 0,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "src_pages_index_less_43d1ccec.css"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js",
+      "info": {},
+      "size": 1009,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js"
+      ]
+    },
+    {
+      "type": "asset",
+      "name": "src_layouts_index_less_77daf435.css",
+      "info": {},
+      "size": 0,
+      "emitted": false,
+      "comparedForEmit": false,
+      "cached": false,
+      "chunks": [
+        "src_layouts_index_less_77daf435.css"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/cjs/react.production.min.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/cjs/react.production.min.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+      ],
+      "size": 6930
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+      ],
+      "size": 190
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/process/browser.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/process/browser.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+      ],
+      "size": 5418
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/pages/index.tsx",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/pages/index.tsx",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+      ],
+      "size": 39115
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/layouts/index.tsx",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/layouts/index.tsx",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_f0ebff68.async.js"
+      ],
+      "size": 433
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/umi.ts",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/umi.ts",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2122
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/global.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/global.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 649
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/fails.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/fails.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 122
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/descriptors.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/descriptors.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 323
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-bind-native.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-bind-native.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 351
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-call.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-call.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 220
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-property-is-enumerable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-property-is-enumerable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 642
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-property-descriptor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-property-descriptor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 187
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-uncurry-this.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-uncurry-this.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 379
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/classof-raw.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/classof-raw.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 242
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/indexed-object.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/indexed-object.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 624
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-null-or-undefined.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-null-or-undefined.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 223
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/require-object-coercible.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/require-object-coercible.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 346
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-indexed-object.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-indexed-object.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 299
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/document-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/document-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 363
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-callable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-callable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 389
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-object.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-object.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 393
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-built-in.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-built-in.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 372
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-is-prototype-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-is-prototype-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 128
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-user-agent.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-user-agent.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 101
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-v8-version.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-v8-version.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 864
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/symbol-constructor-detection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/symbol-constructor-detection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 939
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/use-symbol-as-uid.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/use-symbol-as-uid.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 237
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-symbol.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-symbol.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 507
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/try-to-string.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/try-to-string.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 162
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-callable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-callable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 354
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-method.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-method.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 334
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/ordinary-to-primitive.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/ordinary-to-primitive.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 723
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-pure.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-pure.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 38
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-global-property.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-global-property.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 371
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/shared-store.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/shared-store.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 259
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/shared.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/shared.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 492
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-object.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-object.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 285
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/has-own-property.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/has-own-property.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 434
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/uid.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/uid.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 292
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/well-known-symbol.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/well-known-symbol.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 791
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-primitive.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-primitive.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1019
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-property-key.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-property-key.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 333
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/document-create-element.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/document-create-element.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 354
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/ie8-dom-define.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/ie8-dom-define.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 477
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-descriptor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-descriptor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1138
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/v8-prototype-define-bug.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/v8-prototype-define-bug.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 459
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-object.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-object.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 304
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-define-property.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-define-property.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1895
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-non-enumerable-property.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-non-enumerable-property.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 452
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-name.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-name.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 725
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/inspect-source.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/inspect-source.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 479
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/weak-map-basic-detection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/weak-map-basic-detection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 222
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/shared-key.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/shared-key.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 210
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/hidden-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/hidden-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 35
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/internal-state.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/internal-state.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2089
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/make-built-in.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/make-built-in.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2607
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-built-in.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-built-in.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 979
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-trunc.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-trunc.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 284
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-integer-or-infinity.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-integer-or-infinity.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 350
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-absolute-index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-absolute-index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 485
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-length.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-length.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 343
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/length-of-array-like.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/length-of-array-like.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 225
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-includes.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-includes.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1333
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-keys-internal.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-keys-internal.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 722
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/enum-bug-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/enum-bug-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 192
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-names.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-names.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 494
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-symbols.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-symbols.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 127
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/own-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/own-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 734
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/copy-constructor-properties.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/copy-constructor-properties.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 719
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-forced.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-forced.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 634
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/export.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/export.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2683
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-apply.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-apply.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 401
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-uncurry-this-accessor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-uncurry-this-accessor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 394
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-possible-prototype.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-possible-prototype.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 316
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-set-prototype-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-set-prototype-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1001
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/proxy-accessor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/proxy-accessor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 309
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/inherit-if-required.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/inherit-if-required.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 750
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-string-tag-support.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-string-tag-support.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 224
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/classof.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/classof.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1094
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-string.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-string.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 259
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/normalize-string-argument.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/normalize-string-argument.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 210
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/install-error-cause.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/install-error-cause.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 432
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/error-stack-clear.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/error-stack-clear.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 636
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/error-stack-installable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/error-stack-installable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 420
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/error-stack-install.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/error-stack-install.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 564
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/wrap-error-constructor-with-cause.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/wrap-error-constructor-with-cause.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2965
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.error.cause.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.error.cause.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2610
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/correct-prototype-getter.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/correct-prototype-getter.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 304
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-prototype-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-prototype-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 936
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 364
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-define-properties.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-define-properties.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 925
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/html.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/html.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 130
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-create.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-create.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3085
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-uncurry-this-clause.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-uncurry-this-clause.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 359
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-bind-context.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-bind-context.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 478
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterators.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterators.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 35
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-array-iterator-method.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-array-iterator-method.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 375
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator-method.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator-method.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 508
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 620
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-close.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-close.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 657
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterate.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterate.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2562
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.aggregate-error.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.aggregate-error.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2374
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.aggregate-error.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.aggregate-error.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 149
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.aggregate-error.cause.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.aggregate-error.cause.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 976
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/add-to-unscopables.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/add-to-unscopables.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 669
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.at.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.at.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 733
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-iteration-from-last.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-iteration-from-last.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1200
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.find-last.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.find-last.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 527
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.find-last-index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.find-last-index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 567
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-array.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-array.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 300
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-set-length.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-set-length.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1012
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/does-not-exceed-safe-integer.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/does-not-exceed-safe-integer.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 249
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.push.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.push.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1469
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-reduce.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-reduce.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1397
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-method-is-strict.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-method-is-strict.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 329
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-node.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-node.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 167
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.reduce.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.reduce.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 870
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.reduce-right.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.reduce-right.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 891
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-to-reversed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-to-reversed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 419
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.to-reversed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.to-reversed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 547
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-from-constructor-and-list.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-from-constructor-and-list.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 348
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-built-in-prototype-method.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-built-in-prototype-method.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 251
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.to-sorted.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.to-sorted.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 958
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.to-spliced.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.to-spliced.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1680
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-with.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-with.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 758
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.with.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.array.with.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 428
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/map-helpers.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/map-helpers.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 426
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.map.group-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.map.group-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1014
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.object.group-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.object.group-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1126
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.object.has-own.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.object.has-own.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 241
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/new-promise-capability.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/new-promise-capability.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 618
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/perform.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/perform.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 170
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/promise-native-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/promise-native-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 93
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/check-correctness-of-iteration.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/check-correctness-of-iteration.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1079
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-deno.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-deno.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 130
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-browser.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-browser.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 226
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/promise-constructor-detection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/promise-constructor-detection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2610
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/promise-statics-incorrect-iteration.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/promise-statics-incorrect-iteration.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 477
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.promise.any.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.promise.any.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1862
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.promise.with-resolvers.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.promise.with-resolvers.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 527
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-to-string-tag.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-to-string-tag.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 497
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.reflect.to-string-tag.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.reflect.to-string-tag.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 341
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-built-in-accessor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-built-in-accessor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 402
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/regexp-flags.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/regexp-flags.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 562
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.regexp.flags.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.regexp.flags.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1583
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.at-alternative.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.at-alternative.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 980
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.is-well-formed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.is-well-formed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 868
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-regexp.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-regexp.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 451
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/regexp-get-flags.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/regexp-get-flags.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 501
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-substitution.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-substitution.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1637
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.replace-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.replace-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3042
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.to-well-formed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.string.to-well-formed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1646
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-basic-detection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-basic-detection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 155
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-view-core.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-view-core.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 7509
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.at.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.at.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 738
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.find-last.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.find-last.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 583
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.find-last-index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.find-last-index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 618
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-positive-integer.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-positive-integer.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 291
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-offset.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-offset.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 274
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.set.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.set.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1976
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.to-reversed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.to-reversed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 610
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.to-sorted.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.to-sorted.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 929
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-big-int-array.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-big-int-array.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 191
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-big-int.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-big-int.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 423
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.with.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.typed-array.with.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1392
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.suppressed-error.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.suppressed-error.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2170
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1815
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-built-ins.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/define-built-ins.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 217
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-prototype.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-prototype.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1667
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-iter-result-object.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-iter-result-object.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 200
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-from-sync-iterator.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-from-sync-iterator.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1968
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator-direct.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator-direct.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 237
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-async-iterator.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-async-iterator.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 737
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-close.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-close.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 581
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-iteration.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-iteration.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3325
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-from-async.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-from-async.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2331
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.from-async.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.from-async.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 258
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-species-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-species-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 773
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-species-create.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-species-create.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 327
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-iteration.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-iteration.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2930
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.filter-out.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.filter-out.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 566
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.filter-reject.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.filter-reject.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 545
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-group.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-group.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1518
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 498
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 704
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-group-to-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-group-to-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1134
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group-by-to-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group-by-to-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 662
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group-to-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.group-to-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 439
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.is-template-object.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.is-template-object.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 963
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.last-index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.last-index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 743
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.last-item.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.last-item.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 913
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterate-simple.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterate-simple.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 381
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/map-iterate.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/map-iterate.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 606
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-unique-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-unique-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1176
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.unique-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array.unique-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 372
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-byte-length.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-byte-length.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 525
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-is-detached.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-is-detached.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 387
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array-buffer.detached.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array-buffer.detached.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 486
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 475
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/try-node-require.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/try-node-require.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 271
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/structured-clone-proper-transfer.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/structured-clone-proper-transfer.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 829
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/detach-transferable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/detach-transferable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1129
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-transfer.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-transfer.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2448
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array-buffer.transfer.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array-buffer.transfer.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 426
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array-buffer.transfer-to-fixed-length.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.array-buffer.transfer-to-fixed-length.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 479
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-instance.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-instance.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 254
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/add-disposable-resource.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/add-disposable-resource.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2115
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-disposable-stack.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-disposable-stack.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4696
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1452
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-create-proxy.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-create-proxy.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4341
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1980
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-indexed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-indexed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 367
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.as-indexed-pairs.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.as-indexed-pairs.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 373
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.async-dispose.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.async-dispose.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1012
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/not-a-nan.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/not-a-nan.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 215
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.drop.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.drop.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1784
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.every.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.every.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 364
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.filter.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.filter.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2387
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.find.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.find.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 358
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-async-iterator-flattenable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-async-iterator-flattenable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1079
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.flat-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.flat-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3205
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.for-each.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.for-each.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 362
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-wrap.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/async-iterator-wrap.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 256
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 892
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.indexed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.indexed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 342
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 346
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.reduce.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.reduce.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2361
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.some.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.some.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 358
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.take.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.take.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1759
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.to-array.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.async-iterator.to-array.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 371
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterators-core.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterators-core.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1800
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-create-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-create-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 779
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/numeric-range-iterator.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/numeric-range-iterator.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3550
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.bigint.range.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.bigint.range.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 521
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-property.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/create-property.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 472
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-slice-simple.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-slice-simple.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 602
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-names-external.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-get-own-property-names-external.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 871
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-non-extensible.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-buffer-non-extensible.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 454
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-is-extensible.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-is-extensible.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 789
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/freezing.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/freezing.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 272
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/internal-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/internal-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2836
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4586
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-define.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-define.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4515
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-species.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-species.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 601
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-strong.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-strong.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 8049
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.map.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.map.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 350
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 137
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-weak.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-weak.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4518
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.weak-map.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.weak-map.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4286
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.weak-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/es.weak-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 142
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/composite-key.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/composite-key.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1574
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.composite-key.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.composite-key.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 685
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.composite-symbol.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.composite-symbol.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 601
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/ieee754.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/ieee754.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2835
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.get-float16.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.get-float16.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 662
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.get-uint8-clamped.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.get-uint8-clamped.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 506
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-sign.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-sign.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 320
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-float-round.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-float-round.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 785
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-f16round.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-f16round.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 412
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.set-float16.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.set-float16.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 964
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-uint8-clamped.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-uint8-clamped.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 161
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.set-uint8-clamped.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.data-view.set-uint8-clamped.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 838
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.disposable-stack.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.disposable-stack.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4017
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-demethodize.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/function-demethodize.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 216
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.demethodize.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.demethodize.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 308
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.is-callable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.is-callable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1330
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.is-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.is-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 334
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 450
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.un-this.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.function.un-this.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 352
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2528
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-create-proxy.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-create-proxy.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3025
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/call-with-safe-iteration-closing.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 393
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 945
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-indexed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/iterator-indexed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 356
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.as-indexed-pairs.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.as-indexed-pairs.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 357
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.dispose.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.dispose.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 680
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.drop.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.drop.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1233
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.every.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.every.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 734
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.filter.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.filter.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1266
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.find.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.find.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 733
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator-flattenable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-iterator-flattenable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 496
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.flat-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.flat-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1539
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.for-each.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.for-each.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 658
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1020
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.indexed.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.indexed.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 326
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 323
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.range.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.range.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 671
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.reduce.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.reduce.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1083
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.some.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.some.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 729
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.take.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.take.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1214
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.to-array.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.to-array.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 556
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.to-async.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.iterator.to-async.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 691
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/native-raw-json.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/native-raw-json.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 283
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-raw-json.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-raw-json.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 291
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.json.is-raw-json.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.json.is-raw-json.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 413
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/parse-json-string.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/parse-json-string.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1680
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.json.parse.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.json.parse.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 8440
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-json-replacer-function.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-json-replacer-function.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1024
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.json.raw-json.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.json.raw-json.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3278
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 175
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.delete-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.delete-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 633
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.emplace.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.emplace.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 757
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.every.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.every.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 663
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.filter.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.filter.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 807
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.find.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.find.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 701
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.find-key.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.find-key.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 704
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 369
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1058
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 257
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/same-value-zero.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/same-value-zero.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 235
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.includes.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.includes.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 549
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.key-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.key-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 764
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.key-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.key-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 510
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.map-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.map-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 801
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.map-values.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.map-values.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 805
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.merge.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.merge.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 745
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-slice.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/array-slice.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 120
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/collection-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 197
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 245
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.reduce.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.reduce.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 928
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.some.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.some.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 657
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.update.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.update.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 922
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/map-upsert.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/map-upsert.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 995
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.update-or-insert.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.update-or-insert.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 372
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.upsert.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.map.upsert.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 340
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.clamp.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.clamp.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 314
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.deg-per-rad.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.deg-per-rad.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 253
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.degrees.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.degrees.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 301
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-scale.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-scale.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 621
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-fround.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/math-fround.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 538
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.fscale.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.fscale.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 416
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.f16round.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.f16round.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 243
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.iaddh.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.iaddh.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 434
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.imulh.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.imulh.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 539
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.isubh.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.isubh.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 433
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.rad-per-deg.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.rad-per-deg.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 253
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.radians.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.radians.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 301
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.scale.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.scale.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 251
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/number-is-finite.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/number-is-finite.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 350
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.seeded-prng.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.seeded-prng.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1609
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.signbit.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.signbit.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 358
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.umulh.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.math.umulh.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 543
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.number.from-string.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.number.from-string.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1742
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.number.range.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.number.range.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 416
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-iterator.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/object-iterator.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1439
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.object.iterate-entries.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.object.iterate-entries.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 399
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.object.iterate-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.object.iterate-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 387
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.object.iterate-values.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.object.iterate-values.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 395
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/host-report-errors.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/host-report-errors.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 214
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 6369
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1353
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 764
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.observable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 243
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.promise.try.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.promise.try.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 611
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/reflect-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/reflect-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2095
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.define-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.define-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 717
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.delete-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.delete-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 977
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1103
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-metadata-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-metadata-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1252
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-own-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-own-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 688
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-own-metadata-keys.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.get-own-metadata-keys.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 677
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.has-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.has-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1006
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.has-own-metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.has-own-metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 688
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.reflect.metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 619
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/whitespaces.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/whitespaces.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 237
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.regexp.escape.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.regexp.escape.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 774
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-helpers.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-helpers.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 388
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-set.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-set.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 175
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.add-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.add-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 487
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.delete-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.delete-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 633
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-iterate.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-iterate.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 539
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-clone.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-clone.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 311
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-size.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-size.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 263
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-set-record.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-set-record.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1321
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-difference.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-difference.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 891
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-method-accept-set-like.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-method-accept-set-like.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 750
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.difference.v2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.difference.v2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 402
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-iterable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/is-iterable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 570
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-set-like.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/to-set-like.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 570
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.difference.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.difference.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 519
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.every.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.every.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 660
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.filter.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.filter.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 799
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.find.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.find.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 698
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 257
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-intersection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-intersection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 890
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.intersection.v2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.intersection.v2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 661
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.intersection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.intersection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 531
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-is-disjoint-from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-is-disjoint-from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 924
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-disjoint-from.v2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-disjoint-from.v2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 428
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-disjoint-from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-disjoint-from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 545
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-is-subset-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-is-subset-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 578
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-subset-of.v2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-subset-of.v2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 404
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-subset-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-subset-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 521
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-is-superset-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-is-superset-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 776
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-superset-of.v2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-superset-of.v2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 416
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-superset-of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.is-superset-of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 533
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.join.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.join.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 743
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 779
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 245
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.reduce.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.reduce.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 925
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.some.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.some.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 654
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-symmetric-difference.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-symmetric-difference.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 740
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.symmetric-difference.v2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.symmetric-difference.v2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 457
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.symmetric-difference.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.symmetric-difference.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 574
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-union.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/set-union.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 583
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.union.v2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.union.v2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 372
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.union.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.set.union.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 489
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/string-multibyte.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/string-multibyte.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1415
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.at.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.at.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 786
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/string-cooked.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/string-cooked.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1023
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.cooked.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.cooked.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 256
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.code-points.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.code-points.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1595
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/weak-map-helpers.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/weak-map-helpers.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 445
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/string-parse.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/string-parse.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3519
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.dedent.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.string.dedent.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 5013
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/path.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/path.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 85
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/well-known-symbol-wrapped.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/well-known-symbol-wrapped.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 109
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/well-known-symbol-define.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/well-known-symbol-define.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 470
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.async-dispose.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.async-dispose.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 942
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.dispose.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.dispose.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 916
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/symbol-is-registered.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/symbol-is-registered.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 568
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-registered-symbol.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-registered-symbol.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 324
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-registered.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-registered.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 360
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/symbol-is-well-known.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/symbol-is-well-known.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1621
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-well-known-symbol.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-well-known-symbol.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 451
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-well-known.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.is-well-known.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 486
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.matcher.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.matcher.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 218
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.metadata.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.metadata.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 214
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.metadata-key.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.metadata-key.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 261
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.observable.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.observable.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 218
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.pattern-match.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.pattern-match.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 261
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.replace-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.symbol.replace-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 163
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.from-async.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.from-async.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1195
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/species-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/species-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 606
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/typed-array-species-constructor.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/typed-array-species-constructor.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 578
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/typed-array-from-species-and-list.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/typed-array-from-species-and-list.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 330
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.filter-out.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.filter-out.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 746
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.filter-reject.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.filter-reject.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 722
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.group-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.group-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 726
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.to-spliced.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.to-spliced.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2651
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.unique-by.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.typed-array.unique-by.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 848
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-object-or-undefined.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-object-or-undefined.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 305
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-string.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-string.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 189
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/base64-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/base64-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 555
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-alphabet-option.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/get-alphabet-option.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 297
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.from-base64.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.from-base64.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 2809
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.from-hex.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.from-hex.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1079
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-uint8-array.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/an-uint8-array.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 395
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.to-base64.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.to-base64.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1623
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.to-hex.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.uint8-array.to-hex.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 740
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-weak-map.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-weak-map.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 184
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.delete-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.delete-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 659
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 269
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 257
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.emplace.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.emplace.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 799
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.upsert.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-map.upsert.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 346
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/weak-set-helpers.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/weak-set-helpers.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 403
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-weak-set.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/a-weak-set.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 184
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.add-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.add-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 513
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.delete-all.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.delete-all.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 659
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.from.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.from.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 269
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.of.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/esnext.weak-set.of.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 257
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/dom-exception-constants.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/dom-exception-constants.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1554
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.dom-exception.stack.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.dom-exception.stack.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3242
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/validate-arguments-length.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/validate-arguments-length.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 181
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-ios.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-ios.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 201
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/task.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/task.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 3444
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.clear-immediate.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.clear-immediate.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 379
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-bun.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/engine-is-bun.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 127
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/schedulers-fix.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/schedulers-fix.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1511
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.set-immediate.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.set-immediate.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 547
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.immediate.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.immediate.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 184
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.self.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.self.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1482
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.structured-clone.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.structured-clone.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 19142
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/url-constructor-detection.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/internals/url-constructor-detection.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1639
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url.can-parse.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url.can-parse.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1054
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url-search-params.delete.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url-search-params.delete.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1833
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url-search-params.has.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url-search-params.has.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1228
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url-search-params.size.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/core-js/modules/web.url-search-params.size.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 713
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@umijs/preset-umi/node_modules/regenerator-runtime/runtime.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@umijs/preset-umi/node_modules/regenerator-runtime/runtime.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 25202
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 314
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/prop-types/factoryWithThrowingShims.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/prop-types/factoryWithThrowingShims.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1639
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/prop-types/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/prop-types/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 710
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-fast-compare/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-fast-compare/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4823
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/invariant/browser.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/invariant/browser.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1397
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/shallowequal/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/shallowequal/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 979
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/scheduler/cjs/scheduler.production.min.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 4235
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/scheduler/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/scheduler/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 198
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 131685
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-dom/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-dom/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 1363
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-dom/client.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-dom/client.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_e95060d1.async.js"
+      ],
+      "size": 619
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 86
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/core/defineApp.ts",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/core/defineApp.ts",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 625
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 10831
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/history/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/history/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 22675
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 175
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 780
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/exports.ts",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/exports.ts",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 1323
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 820
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 1390
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-router/index.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react-router/index.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 33461
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/umi/client/client/plugin.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/umi/client/client/plugin.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 8636
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 210
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 495
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/typeof.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/@babel/runtime/helpers/esm/typeof.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_ad7d9d01.async.js"
+      ],
+      "size": 350
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/umi.ts",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/.umi-production/umi.ts",
+      "chunks": [
+        "umi.js"
+      ],
+      "size": 2122
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/cjs/react-jsx-runtime.production.min.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js",
+        "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js"
+      ],
+      "size": 859
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/jsx-runtime.js",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/node_modules/react/jsx-runtime.js",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js",
+        "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js"
+      ],
+      "size": 214
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/pages/index.less",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/pages/index.less",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js"
+      ],
+      "size": 9741
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/pages/index.tsx",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/pages/index.tsx",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_fc1972ee.async.js"
+      ],
+      "size": 39115
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/layouts/index.less",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/layouts/index.less",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js"
+      ],
+      "size": 112
+    },
+    {
+      "name": "Project/trae/旅游抽奖页面/jiugongge/src/layouts/index.tsx",
+      "id": "Project/trae/旅游抽奖页面/jiugongge/src/layouts/index.tsx",
+      "chunks": [
+        "_project__Project_trae_旅游抽奖页面_jiugongge_3b5e9e4d.async.js"
+      ],
+      "size": 433
+    }
+  ]
+}
